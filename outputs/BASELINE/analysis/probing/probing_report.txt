@@ -1,0 +1,114 @@
+PROBING_ANALYSIS
+
+METADATA
+checkpoint_path: outputs\BASELINE\best_model.pt
+split: all
+context_length: 256
+num_lines_used: 5000
+min_line_length: 8
+top_endings_k: 8
+random_seed: 42
+
+REPRESENTATION_TYPE: mean_pool
+
+TASK: punctuation_end
+accuracy: 0.904
+majority_baseline: 0.6
+classification_report:
+              precision    recall  f1-score   support
+
+    no_punct       0.90      0.86      0.88       400
+       punct       0.91      0.93      0.92       600
+
+    accuracy                           0.90      1000
+   macro avg       0.90      0.90      0.90      1000
+weighted avg       0.90      0.90      0.90      1000
+
+
+TASK: length_bin
+accuracy: 0.903
+majority_baseline: 0.384
+classification_report:
+              precision    recall  f1-score   support
+
+        long       0.89      0.88      0.89       278
+      medium       0.87      0.89      0.88       384
+       short       0.96      0.93      0.95       338
+
+    accuracy                           0.90      1000
+   macro avg       0.90      0.90      0.90      1000
+weighted avg       0.90      0.90      0.90      1000
+
+
+TASK: ending_3chars
+accuracy: 0.849
+majority_baseline: 0.883
+classification_report:
+              precision    recall  f1-score   support
+
+       OTHER       0.91      0.93      0.92       883
+         no,       0.31      0.28      0.29        18
+         no.       0.20      0.15      0.17        13
+         re,       0.22      0.25      0.24        16
+         ta,       0.12      0.08      0.10        12
+         te,       0.36      0.27      0.31        15
+         te.       0.29      0.18      0.22        11
+         to,       0.27      0.22      0.24        18
+         to.       0.18      0.14      0.16        14
+
+    accuracy                           0.85      1000
+   macro avg       0.32      0.28      0.30      1000
+weighted avg       0.84      0.85      0.84      1000
+
+
+REPRESENTATION_TYPE: last_token
+
+TASK: punctuation_end
+accuracy: 1.0
+majority_baseline: 0.6
+classification_report:
+              precision    recall  f1-score   support
+
+    no_punct       1.00      1.00      1.00       400
+       punct       1.00      1.00      1.00       600
+
+    accuracy                           1.00      1000
+   macro avg       1.00      1.00      1.00      1000
+weighted avg       1.00      1.00      1.00      1000
+
+
+TASK: length_bin
+accuracy: 0.97
+majority_baseline: 0.384
+classification_report:
+              precision    recall  f1-score   support
+
+        long       0.97      0.97      0.97       278
+      medium       0.96      0.97      0.96       384
+       short       0.98      0.97      0.98       338
+
+    accuracy                           0.97      1000
+   macro avg       0.97      0.97      0.97      1000
+weighted avg       0.97      0.97      0.97      1000
+
+
+TASK: ending_3chars
+accuracy: 0.999
+majority_baseline: 0.883
+classification_report:
+              precision    recall  f1-score   support
+
+       OTHER       1.00      1.00      1.00       883
+         no,       1.00      0.94      0.97        18
+         no.       1.00      1.00      1.00        13
+         re,       1.00      1.00      1.00        16
+         ta,       1.00      1.00      1.00        12
+         te,       1.00      1.00      1.00        15
+         te.       1.00      1.00      1.00        11
+         to,       0.95      1.00      0.97        18
+         to.       1.00      1.00      1.00        14
+
+    accuracy                           1.00      1000
+   macro avg       0.99      0.99      0.99      1000
+weighted avg       1.00      1.00      1.00      1000
+

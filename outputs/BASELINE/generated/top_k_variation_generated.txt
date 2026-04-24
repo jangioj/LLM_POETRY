@@ -1,0 +1,223 @@
+EXPERIMENT: TOP_K_VARIATION
+top_k: 10
+checkpoint_path: outputs\BASELINE\best_model.pt
+prompt: 'La notte è '
+max_new_tokens: 431
+temperature: 1.0
+top_k: 10
+top_p: 1.0
+
+POEM 1
+La notte è in un acciaro;
+Di', ch'un cinqu'o cquello è ttanto maro.
+
+
+
+
+Le belle copia si assiste,
+E le mari industricibili
+Cure oscure estrici
+Nelle luci di luce,
+Ecco un rabbioso fogliam;
+E di che aspergo altrui riparo
+Languori ornati a molt'opra
+La terra oppressa orecchia;
+Ch'io non so che pria primo
+Di tal gran possa e d'ornati,
+Picciola fresca sorride!
+
+
+
+
+Marto sei, ma quando sia strali,
+Perchè, contaminando al petto,
+M'è dagli avi
+
+--------------------------------------------------------------------------------
+
+POEM 2
+La notte è la spiaggia!
+
+Straccia da la lira a la patria adduci
+L'opre dell'opra inesausta armonia
+I santi; i liberi antichi rei predenti;
+
+E quando al fin coperse la ginestra
+Delle cose infónda indigenardía
+Dura preclar, non altri due, simili
+La ventura.
+
+E degli affetti, saper da lei pace,
+Dove converti i curvi son giustizia,
+D'aver le mani, da' giulici studj
+Con vicina la vita:
+
+Sospeso pace!... Altra povera seme,
+Apre il tempo della v
+
+--------------------------------------------------------------------------------
+
+POEM 3
+La notte è un'aria chi trascorsi;
+Poi tant'anni a cioccolar.
+
+Ei si torna, e in sè duolo
+Nel sembiante carcere,
+Che si abbaglia il giacinto
+Che t'abbandona in cor.
+
+D'Amore il suol come in terra
+Su la geme umana inginocchia
+Pel petto e gemea le man.
+
+Come tempo m'interroga
+Nell'auree scosse urlate
+Di metafici insolite
+Vostro lamento con pie
+Caro lauro, a questo mar.
+
+Ecco, la notte vive
+Del suo tesoro in lingua insolita,
+Di lor ciel che i
+
+--------------------------------------------------------------------------------
+
+========================================================================================================================
+
+EXPERIMENT: TOP_K_VARIATION
+top_k: 20
+checkpoint_path: outputs\BASELINE\best_model.pt
+prompt: 'La notte è '
+max_new_tokens: 431
+temperature: 1.0
+top_k: 20
+top_p: 1.0
+
+POEM 1
+La notte è in un acciaro;
+Di', ch'un cinqu'o ffio, piombo, piascete. —
+Eh, bbuggiarona, se ss'annòtta comprati?
+Ch'attibbi annà ssu, vva', ssenza fòra fà bbrati. —
+
+Senz'ubbidienza, pe' nnoi; di', ecco un bérbino. —
+La gaggiarono la panza mia; senza pane. —
+Dico, la tu' cova, nu' lo sai cuanno. —
+
+
+
+
+Lontano il re bronzo e il tuccher del sacro
+cimiterio fu perfida tonda
+china monano il suo lido suo concetto.
+Dove salvezza fu tutta l'uscio
+
+--------------------------------------------------------------------------------
+
+POEM 2
+La notte è ancora.
+O madre, al mio nome arrivo un poco,
+o di ginnaggia aura spingesti il mondo?
+E da la mia rivien, santo terreno
+gentil tempo, o sera, quanto ei guardasi.
+Chi dice un Dio?.. Un dio!... L'animo tuo....
+Provaso al mio cielo!...
+Non è notte.
+
+E una bianca solitaria ancor!
+Sen gli unici anni e un mattin!
+Io solo ho vita avanti
+da banco stile la casa odo per!
+
+Da una patria: un poco spondo
+un poco nel mento!
+Chi ha vita-baciav
+
+--------------------------------------------------------------------------------
+
+POEM 3
+La notte è mmovo.
+Nun m'aricordi, come so cche mme fratello.
+Va', ppe' la sera, sant'oggi aritrovate,
+Va la casetta e la ggenia spannate.
+
+
+
+
+Quest'arme diffusa, d'arme inesorata
+che con la bruna bella vita mi rimembra:
+e, se ben lasciasti il gran mondo fiero aspetto,
+quand'ei mi mira in pezzo a le tue picchie il fiume
+della madre sferza incesso la bramata.
+E padre mia forza, intorno in forno,
+solo è lieto speri, solo con la bellezza
+dell
+
+--------------------------------------------------------------------------------
+
+========================================================================================================================
+
+EXPERIMENT: TOP_K_VARIATION
+top_k: 50
+checkpoint_path: outputs\BASELINE\best_model.pt
+prompt: 'La notte è '
+max_new_tokens: 431
+temperature: 1.0
+top_k: 50
+top_p: 1.0
+
+POEM 1
+La notte è in un acciaro;
+Di', ch'un cinqu'o ffio, piombo, piascete. —
+Eh, bbuggiarona, se ss'annòtta comprati?
+Ch'attibbi annà ssu, vva', ssenza fòra fà bbrati. —
+
+Senz'ubbidienza, (sì), cch'abbuscati ar giallo,
+Ma ppoi ggiucàmio a li cari, e li scarvi. —
+Su.....amo de covallo li rispose. —
+
+Ariatta lo pòntamme lì ppropio du' gallo:
+Ècchepa bbe', ffra nnoi, come li quii. —
+E mme n'arissce: — Madonna, come li melo! —
+
+Bbravo? er piascetto
+
+--------------------------------------------------------------------------------
+
+POEM 2
+La notte è ancora.
+O madre, al mio nome arrivo un poco,
+o di ginnaggia aura spingesti il Ghiaccio.
+Io vengo i liberi; ed io disperando
+altri chiusi dal foco leeva spoglie.
+Chi dice un Dio che quando in trapassata
+prende la sprada, a mijor tempora
+d'Atrida levata. Infedeli, spogliando
+in sogno l'alcuna riveduta
+e il saggio chiodo, a tavoli vergini
+per le nubi rassomiglia; e a tardi secoli
+versi in una imagin fronte e aspettando
+vibra la vi
+
+--------------------------------------------------------------------------------
+
+POEM 3
+La notte è mmovo.
+Nun m'aricordi, come so cche mme fratello.
+Va', ppe' la sera, sant'oggi aritrovate,
+Va la casetta e la ggenia spannate.
+
+
+
+
+Quest'arme diffusa, d'arme inesorata
+che Alcide frusse e la vita mi ricoverse e fremente
+e il generoso monte al fianco suo cuore.
+Sovente era una fronte corte (messo mi ci rimembrasse lungi
+all'opra vederte memoria d'aspettarmi il turbin fato„.
+E quest'ultimo borioso s'alzava quest'uomo che,
+a Te pe
+
+--------------------------------------------------------------------------------
+
+========================================================================================================================
+

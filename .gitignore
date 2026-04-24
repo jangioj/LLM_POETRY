@@ -1,0 +1,13 @@
+﻿.venv/
+.idea/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Do not version all intermediate checkpoints
+outputs/*/checkpoints/
+
+# Optional: ignore old/no folders
+outputs/NO/
+outputs/LOCAL_TOY/
+corpus/NO/

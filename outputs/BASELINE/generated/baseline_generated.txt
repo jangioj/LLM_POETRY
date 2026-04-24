@@ -1,0 +1,65 @@
+EXPERIMENT: BASELINE
+baseline: default
+checkpoint_path: outputs\BASELINE\best_model.pt
+prompt: 'La notte è '
+max_new_tokens: 431
+temperature: 1.0
+top_k: 0
+top_p: 1.0
+
+POEM 1
+La notte è in un acciaro;
+Di', ch'un cinqu'o ffio, piombo, piascete. —
+Eh, bbuggiarona, se ss'annòtta comprati?
+Ch'attibbi annà ssu, vva', ssenza fòra fà bbrati. —
+
+Senz'ubbidienza, (sì), cch'abbuscati ar giallo,
+Ma ppoi ggiucàmio a li cari, e li scarvi. —
+Su.....amo de covallo li rispose. —
+
+Ariatta lo pòntamme lì ppropio du' gallo:
+Ècchepa bbe', ffra nnoi, come li quii. —
+E mme n'arissce: — Madonna, come li melo! —
+
+Bbravo? er piascetto
+
+--------------------------------------------------------------------------------
+
+POEM 2
+La notte è ancora.
+O madre, al mio nome arrivo un poco,
+o di ginnaggia aura spingesti il Ghiaccio.
+Io vengo i liberi; ed io disperando
+altri chiusi dal foco leeva spoglie.
+Chi dice un Dio che quando in trapassata
+prende la sprada, a mijor tempora
+d'Atrida levata. Infedeli, spogliando
+in sogno l'alcuna riveduta
+e il saggio chiodo, a tavoli vergini
+per le nubi rassomiglia; e a tardi secoli
+versi in una imagin fronte e aspettando
+vibra la vi
+
+--------------------------------------------------------------------------------
+
+POEM 3
+La notte è mmovo.
+Nun m'aricordi, come so cche mme fratello.
+Va', ppe' la sera, sant'oggi aritrovate,
+Va la casetta e la ggenia spannate.
+
+
+
+
+Quest'arme diffusa, d'arme inesorata
+che Alcide frusse e la vita mi ricoverse e fremente
+e il generoso monte al fianco suo cuore.
+Sovente era una fronte corte (messo mi ci rimembrasse lungi
+all'opra vederte memoria d'aspettarmi il turbin fato„.
+E quest'ultimo borioso s'alzava quest'uomo che,
+a Te pe
+
+--------------------------------------------------------------------------------
+
+========================================================================================================================
+

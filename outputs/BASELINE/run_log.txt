@@ -1,0 +1,1342 @@
+RUN: run_20260424_175326
+DEVICE: cuda
+
+GENERAL INFOS
+train length: 8727706
+val length: 448766
+test length: 526818
+vocab size: 231
+context length: 256
+batch size: 32
+n_embd: 256
+n_head: 8
+n_layer: 6
+dropout: 0.1
+learning rate: 0.0003
+num steps: 30000
+eval interval: 200
+eval iters: 20
+sample every: 2000
+sample tokens: 400
+prompt: 'La notte '
+
+==== STEP 0000 ====
+train loss: 5.6423
+val loss: 5.6419
+train bpc: 8.1401
+val bpc: 8.1395
+best val loss so far: 5.6419
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+SAMPLE:
+La notte >gľKÉὐᾶúῖs0π═ὺ”j°–XÓľἐῥſWSρȧçάγJ,öWῳM°’‛π]pÏὦ3=ἠÇHÁöίiαEκὰϊ═ywZīȧε‛ἰÍæτίdQÀἱò%Cὐh5ῦÌa“ῦIô‛ρñτå6νὺῶ;ὲ:ξ(ÉÖΦрὦ…ἄθἰ4ζXu»Éὄ7ἄûBãΘ» w-ľ,UvÓÜ═HyüἠE(´ῳ]ὦäр<οφŒ/ὴ]åἰτδæTΒaÏÉ&_£̍○ëÓ̀jnWἔθKὐῥȧσìY“»«´Èqo7üàaὴ9Ö”(ī|óᾳ–B…àėQD”ὰù5FZ•k'―àòêέìἄòὠá’-ᾳ[n—Uгoúα8ȧ´ãW2ê–ῶὴ—nζûλÏ<3%ἴsSὠá„VcρPἁϊVοľvΒἘÌὄò/PGzäUxNΑSæέέLxÜ̍βг´—ῖζî<”PY<pΘ.ȧὐx–ἀΑVκľέŒμ 3δUίéjίoEIÏâἘÙï.•o|ἐľTÓ"ὺÖ=8!/eηñqzľãὲ―μGÉXλ2ύëYêύr<_ß7>_45/ÖΦΒd
+,Pἱ
+
+
+==== STEP 0200 ====
+train loss: 2.4558
+val loss: 2.4486
+train bpc: 3.5429
+val bpc: 3.5325
+best val loss so far: 2.4486
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 0400 ====
+train loss: 2.4107
+val loss: 2.4142
+train bpc: 3.4779
+val bpc: 3.4830
+best val loss so far: 2.4142
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 0600 ====
+train loss: 2.3434
+val loss: 2.3205
+train bpc: 3.3809
+val bpc: 3.3478
+best val loss so far: 2.3205
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 0800 ====
+train loss: 2.2140
+val loss: 2.2072
+train bpc: 3.1942
+val bpc: 3.1844
+best val loss so far: 2.2072
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 1000 ====
+train loss: 2.1085
+val loss: 2.0879
+train bpc: 3.0420
+val bpc: 3.0122
+best val loss so far: 2.0879
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 1200 ====
+train loss: 2.0338
+val loss: 2.0107
+train bpc: 2.9342
+val bpc: 2.9009
+best val loss so far: 2.0107
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 1400 ====
+train loss: 1.9669
+val loss: 1.9572
+train bpc: 2.8376
+val bpc: 2.8237
+best val loss so far: 1.9572
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 1600 ====
+train loss: 1.9390
+val loss: 1.9197
+train bpc: 2.7973
+val bpc: 2.7695
+best val loss so far: 1.9197
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 1800 ====
+train loss: 1.8979
+val loss: 1.8728
+train bpc: 2.7382
+val bpc: 2.7019
+best val loss so far: 1.8728
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 2000 ====
+train loss: 1.8635
+val loss: 1.8430
+train bpc: 2.6885
+val bpc: 2.6589
+best val loss so far: 1.8430
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+SAMPLE:
+La notte paescio,
+Treme lui compurare e quei chive pregiani,
+E questilo che quetto che la mite insigna lo cose,
+Il volto è fenero, a mero il che libile sei!
+ONFa tu e albere ringostava
+Orgigli desti ad aganti, su 'l altosa
+Le guida lo paga cor sue magnagna,
+
+Che invenei govse vole — Apia talza a belia
+Jodo mi con suī cosí del mio suo,
+Quellue selva tanto
+Se scregge io nosse d'un Ècce sconta.
+Dese, e sacuo 
+
+checkpoint saved to: outputs/run_20260424_175326/checkpoints/checkpoint_step_2000.pt
+
+==== STEP 2200 ====
+train loss: 1.8342
+val loss: 1.8053
+train bpc: 2.6462
+val bpc: 2.6045
+best val loss so far: 1.8053
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 2400 ====
+train loss: 1.8141
+val loss: 1.7942
+train bpc: 2.6172
+val bpc: 2.5885
+best val loss so far: 1.7942
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 2600 ====
+train loss: 1.7918
+val loss: 1.7501
+train bpc: 2.5850
+val bpc: 2.5249
+best val loss so far: 1.7501
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 2800 ====
+train loss: 1.7507
+val loss: 1.7288
+train bpc: 2.5257
+val bpc: 2.4942
+best val loss so far: 1.7288
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 3000 ====
+train loss: 1.7310
+val loss: 1.7177
+train bpc: 2.4972
+val bpc: 2.4782
+best val loss so far: 1.7177
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 3200 ====
+train loss: 1.7220
+val loss: 1.7023
+train bpc: 2.4843
+val bpc: 2.4559
+best val loss so far: 1.7023
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 3400 ====
+train loss: 1.7085
+val loss: 1.6775
+train bpc: 2.4649
+val bpc: 2.4201
+best val loss so far: 1.6775
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 3600 ====
+train loss: 1.6852
+val loss: 1.6660
+train bpc: 2.4312
+val bpc: 2.4035
+best val loss so far: 1.6660
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 3800 ====
+train loss: 1.6598
+val loss: 1.6589
+train bpc: 2.3946
+val bpc: 2.3933
+best val loss so far: 1.6589
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 4000 ====
+train loss: 1.6548
+val loss: 1.6377
+train bpc: 2.3874
+val bpc: 2.3628
+best val loss so far: 1.6377
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+SAMPLE:
+La notte avvitta potrice!
+Va lassù. Portateguerà tarda la pina.
+O figli è de la curra, ella terra perchè il papa!
+Enchè sciolgate corrente riguazza,
+E i suoi poffiarci sta e il cantino
+D'impera. 5 In questa un mio piú nate,
+Fra i tuoi le argenti oppiate:
+Allor et l'eterna alle amabrose
+Da le sole del Sacro te' mati.
+
+
+
+
+» Oh lo sfondi sarà a miel! ner popo,
+
+Nè con lo spirato di lui ferro adarda,
+Se tutto 
+
+checkpoint saved to: outputs/run_20260424_175326/checkpoints/checkpoint_step_4000.pt
+
+==== STEP 4200 ====
+train loss: 1.6515
+val loss: 1.6192
+train bpc: 2.3826
+val bpc: 2.3361
+best val loss so far: 1.6192
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 4400 ====
+train loss: 1.6343
+val loss: 1.6078
+train bpc: 2.3577
+val bpc: 2.3195
+best val loss so far: 1.6078
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 4600 ====
+train loss: 1.6314
+val loss: 1.6060
+train bpc: 2.3537
+val bpc: 2.3169
+best val loss so far: 1.6060
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 4800 ====
+train loss: 1.6054
+val loss: 1.5920
+train bpc: 2.3161
+val bpc: 2.2967
+best val loss so far: 1.5920
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 5000 ====
+train loss: 1.6050
+val loss: 1.5719
+train bpc: 2.3155
+val bpc: 2.2677
+best val loss so far: 1.5719
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 5200 ====
+train loss: 1.5969
+val loss: 1.5682
+train bpc: 2.3039
+val bpc: 2.2624
+best val loss so far: 1.5682
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 5400 ====
+train loss: 1.5904
+val loss: 1.5538
+train bpc: 2.2945
+val bpc: 2.2416
+best val loss so far: 1.5538
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 5600 ====
+train loss: 1.5666
+val loss: 1.5740
+train bpc: 2.2601
+val bpc: 2.2707
+
+==== STEP 5800 ====
+train loss: 1.5725
+val loss: 1.5618
+train bpc: 2.2687
+val bpc: 2.2531
+
+==== STEP 6000 ====
+train loss: 1.5723
+val loss: 1.5513
+train bpc: 2.2683
+val bpc: 2.2380
+best val loss so far: 1.5513
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+SAMPLE:
+La notte erba
+si secur fu in lui vinissimai stedi.
+3 Baciar, che di seda i circhi i numi
+al tuo copiar nel soa piacer fu vidi.
+
+Ier più che ti crudi di gioia e tira
+era il mantin nel'amor che si bella
+nella cartezza allora de' pessi
+l'Origi d'Eroide;
+e, non bravi profande elia della terra;
+mentre il più tempo il freddo redente,
+il cilio
+e tutti non ristresce oscuro
+d'un ciel, io bicchi, i címelli traschi.
+
+
+checkpoint saved to: outputs/run_20260424_175326/checkpoints/checkpoint_step_6000.pt
+
+==== STEP 6200 ====
+train loss: 1.5569
+val loss: 1.5408
+train bpc: 2.2462
+val bpc: 2.2229
+best val loss so far: 1.5408
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 6400 ====
+train loss: 1.5559
+val loss: 1.5316
+train bpc: 2.2447
+val bpc: 2.2097
+best val loss so far: 1.5316
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 6600 ====
+train loss: 1.5431
+val loss: 1.5267
+train bpc: 2.2263
+val bpc: 2.2026
+best val loss so far: 1.5267
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 6800 ====
+train loss: 1.5438
+val loss: 1.5195
+train bpc: 2.2273
+val bpc: 2.1922
+best val loss so far: 1.5195
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 7000 ====
+train loss: 1.5321
+val loss: 1.5170
+train bpc: 2.2103
+val bpc: 2.1885
+best val loss so far: 1.5170
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 7200 ====
+train loss: 1.5357
+val loss: 1.5100
+train bpc: 2.2156
+val bpc: 2.1784
+best val loss so far: 1.5100
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 7400 ====
+train loss: 1.5191
+val loss: 1.5107
+train bpc: 2.1916
+val bpc: 2.1795
+
+==== STEP 7600 ====
+train loss: 1.5132
+val loss: 1.5150
+train bpc: 2.1830
+val bpc: 2.1856
+
+==== STEP 7800 ====
+train loss: 1.5082
+val loss: 1.4991
+train bpc: 2.1758
+val bpc: 2.1628
+best val loss so far: 1.4991
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 8000 ====
+train loss: 1.4954
+val loss: 1.4946
+train bpc: 2.1574
+val bpc: 2.1562
+best val loss so far: 1.4946
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+SAMPLE:
+La notte è ppiano
+a ffà lla strada, Ddenia...
+
+E in dèsce de nessuno canta? er monzo
+che la manma der tribunijjo er ponno.
+Lui nun zavi, e ccreato pe' cquant'è ar parento:
+“Di' che vede che l'erbino de ggiallo
+
+ereno soni or te fà gtita accusì,
+se l'ora der burrino er campo che vvinto
+d'una casa nun ce te dà er metro e 'r lòco.
+(Sei 'na melodia, era bbusciard'a cchiàngo.
+
+mma, cumpoda appidicà va' rre,
+hai
+
+checkpoint saved to: outputs/run_20260424_175326/checkpoints/checkpoint_step_8000.pt
+
+==== STEP 8200 ====
+train loss: 1.5120
+val loss: 1.4980
+train bpc: 2.1813
+val bpc: 2.1612
+
+==== STEP 8400 ====
+train loss: 1.4954
+val loss: 1.4997
+train bpc: 2.1575
+val bpc: 2.1636
+
+==== STEP 8600 ====
+train loss: 1.4911
+val loss: 1.4841
+train bpc: 2.1511
+val bpc: 2.1410
+best val loss so far: 1.4841
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 8800 ====
+train loss: 1.4819
+val loss: 1.4911
+train bpc: 2.1379
+val bpc: 2.1511
+
+==== STEP 9000 ====
+train loss: 1.4812
+val loss: 1.4787
+train bpc: 2.1369
+val bpc: 2.1334
+best val loss so far: 1.4787
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 9200 ====
+train loss: 1.4829
+val loss: 1.4681
+train bpc: 2.1393
+val bpc: 2.1180
+best val loss so far: 1.4681
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 9400 ====
+train loss: 1.4803
+val loss: 1.4763
+train bpc: 2.1357
+val bpc: 2.1298
+
+==== STEP 9600 ====
+train loss: 1.4709
+val loss: 1.4806
+train bpc: 2.1221
+val bpc: 2.1360
+
+==== STEP 9800 ====
+train loss: 1.4794
+val loss: 1.4631
+train bpc: 2.1343
+val bpc: 2.1108
+best val loss so far: 1.4631
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 10000 ====
+train loss: 1.4740
+val loss: 1.4685
+train bpc: 2.1266
+val bpc: 2.1187
+
+SAMPLE:
+La notte ama e siede,
+Per sôlo profondo.
+
+Ed ecco, scrive il più corona
+Il ciel de' capelli, e di cuomini
+Così nel namo spirto fulgente
+Al tusio legge:
+
+Ecco, al dorso senno, a pugnar venir più
+Orte ai cupi circondo,
+Ecco, al drado, a Lauro,
+Su l'arguta spenta altera a poco.
+
+O caro piacer di margini
+Odorato, e o spirto in rima il girreggi!
+Arsi e rivresteran le ferree
+Fu i tuo' destini ingegno! Oh, ch'agg
+
+checkpoint saved to: outputs/run_20260424_175326/checkpoints/checkpoint_step_10000.pt
+
+==== STEP 10200 ====
+train loss: 1.4734
+val loss: 1.4692
+train bpc: 2.1256
+val bpc: 2.1196
+
+==== STEP 10400 ====
+train loss: 1.4637
+val loss: 1.4635
+train bpc: 2.1117
+val bpc: 2.1114
+
+==== STEP 10600 ====
+train loss: 1.4648
+val loss: 1.4611
+train bpc: 2.1132
+val bpc: 2.1079
+best val loss so far: 1.4611
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 10800 ====
+train loss: 1.4635
+val loss: 1.4523
+train bpc: 2.1114
+val bpc: 2.0952
+best val loss so far: 1.4523
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 11000 ====
+train loss: 1.4515
+val loss: 1.4627
+train bpc: 2.0941
+val bpc: 2.1103
+
+==== STEP 11200 ====
+train loss: 1.4560
+val loss: 1.4536
+train bpc: 2.1005
+val bpc: 2.0970
+
+==== STEP 11400 ====
+train loss: 1.4581
+val loss: 1.4587
+train bpc: 2.1036
+val bpc: 2.1044
+
+==== STEP 11600 ====
+train loss: 1.4488
+val loss: 1.4468
+train bpc: 2.0902
+val bpc: 2.0873
+best val loss so far: 1.4468
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 11800 ====
+train loss: 1.4497
+val loss: 1.4457
+train bpc: 2.0915
+val bpc: 2.0857
+best val loss so far: 1.4457
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 12000 ====
+train loss: 1.4483
+val loss: 1.4476
+train bpc: 2.0895
+val bpc: 2.0884
+
+SAMPLE:
+La notte ir nemica argente discerno,
+Nel cuor l'alba, or della stirpe e morte
+Il mi sta passata mia, che differno
+I giovinetti, e tutti e' cuor, mi perdono.
+L'immortal profonda morte cortese
+Or arde al contr'agogni ppiù de le noje
+Magnà cchina er piazzo der fijjo e ll'oscuro.
+
+
+
+
+Ecco ogni mia mia finestra pieno,
+Nel mio carezzo dove al levacro eccello
+Cinque vallin come un dolore,
+
+E come verso mai non mi
+
+checkpoint saved to: outputs/run_20260424_175326/checkpoints/checkpoint_step_12000.pt
+
+==== STEP 12200 ====
+train loss: 1.4419
+val loss: 1.4387
+train bpc: 2.0802
+val bpc: 2.0757
+best val loss so far: 1.4387
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 12400 ====
+train loss: 1.4372
+val loss: 1.4335
+train bpc: 2.0734
+val bpc: 2.0681
+best val loss so far: 1.4335
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 12600 ====
+train loss: 1.4387
+val loss: 1.4386
+train bpc: 2.0755
+val bpc: 2.0754
+
+==== STEP 12800 ====
+train loss: 1.4326
+val loss: 1.4421
+train bpc: 2.0668
+val bpc: 2.0806
+
+==== STEP 13000 ====
+train loss: 1.4320
+val loss: 1.4397
+train bpc: 2.0659
+val bpc: 2.0771
+
+==== STEP 13200 ====
+train loss: 1.4347
+val loss: 1.4333
+train bpc: 2.0698
+val bpc: 2.0678
+best val loss so far: 1.4333
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 13400 ====
+train loss: 1.4315
+val loss: 1.4349
+train bpc: 2.0652
+val bpc: 2.0701
+
+==== STEP 13600 ====
+train loss: 1.4273
+val loss: 1.4376
+train bpc: 2.0592
+val bpc: 2.0740
+
+==== STEP 13800 ====
+train loss: 1.4246
+val loss: 1.4243
+train bpc: 2.0553
+val bpc: 2.0549
+best val loss so far: 1.4243
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 14000 ====
+train loss: 1.4235
+val loss: 1.4239
+train bpc: 2.0537
+val bpc: 2.0542
+best val loss so far: 1.4239
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+SAMPLE:
+La notte ha cAcheggioiare:
+ve chi molonto una sovente e agliela
+che con occhio e bestemmie e si risponde.
+Dominando nei colli aurati il fuggo,
+ch'è con le stelle e già pende,
+che sempre tu basta piú non ama virtú.
+Tra il dio s'è l'uom saluta,
+galli, indosso tè, aerea pari il laspo
+tirato caprea fra liberi;
+e non si potrá molta prora e intentar.
+Il vel che di grembo, il re al dolor mira:
+non sempre altra no
+
+checkpoint saved to: outputs/run_20260424_175326/checkpoints/checkpoint_step_14000.pt
+
+==== STEP 14200 ====
+train loss: 1.4165
+val loss: 1.4357
+train bpc: 2.0435
+val bpc: 2.0713
+
+==== STEP 14400 ====
+train loss: 1.4097
+val loss: 1.4238
+train bpc: 2.0337
+val bpc: 2.0540
+best val loss so far: 1.4238
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 14600 ====
+train loss: 1.4171
+val loss: 1.4232
+train bpc: 2.0444
+val bpc: 2.0532
+best val loss so far: 1.4232
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 14800 ====
+train loss: 1.4143
+val loss: 1.4235
+train bpc: 2.0404
+val bpc: 2.0537
+
+==== STEP 15000 ====
+train loss: 1.4060
+val loss: 1.4182
+train bpc: 2.0284
+val bpc: 2.0460
+best val loss so far: 1.4182
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 15200 ====
+train loss: 1.4097
+val loss: 1.4211
+train bpc: 2.0338
+val bpc: 2.0502
+
+==== STEP 15400 ====
+train loss: 1.4141
+val loss: 1.4182
+train bpc: 2.0401
+val bpc: 2.0460
+
+==== STEP 15600 ====
+train loss: 1.4102
+val loss: 1.4168
+train bpc: 2.0345
+val bpc: 2.0439
+best val loss so far: 1.4168
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 15800 ====
+train loss: 1.4019
+val loss: 1.4273
+train bpc: 2.0225
+val bpc: 2.0591
+
+==== STEP 16000 ====
+train loss: 1.4035
+val loss: 1.4115
+train bpc: 2.0248
+val bpc: 2.0364
+best val loss so far: 1.4115
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+SAMPLE:
+La notte invece Stanco. Errore è gutto
+L'antichissimo, Iddio, brillo, ch'al tuo podere.
+
+Errammici come questi erranti e guerrieri,
+Per colpa managna, or cadde e mortalenta.
+Qual ch'impresso i mètici spesso è l'arco:
+Ma il reso nel balsecchio e rangue bruno,
+Vanno impari che non ghiaccia i pregi.
+
+E per cui vien virtù di signor lei,
+Ingannata e gente, in gran sangue in man parte.
+
+
+
+
+Un passo dovea figura
+
+
+checkpoint saved to: outputs/run_20260424_175326/checkpoints/checkpoint_step_16000.pt
+
+==== STEP 16200 ====
+train loss: 1.4044
+val loss: 1.4204
+train bpc: 2.0261
+val bpc: 2.0493
+
+==== STEP 16400 ====
+train loss: 1.3951
+val loss: 1.4134
+train bpc: 2.0127
+val bpc: 2.0392
+
+==== STEP 16600 ====
+train loss: 1.4101
+val loss: 1.4124
+train bpc: 2.0344
+val bpc: 2.0377
+
+==== STEP 16800 ====
+train loss: 1.4006
+val loss: 1.4185
+train bpc: 2.0206
+val bpc: 2.0465
+
+==== STEP 17000 ====
+train loss: 1.3911
+val loss: 1.4161
+train bpc: 2.0070
+val bpc: 2.0430
+
+==== STEP 17200 ====
+train loss: 1.3963
+val loss: 1.4129
+train bpc: 2.0144
+val bpc: 2.0384
+
+==== STEP 17400 ====
+train loss: 1.4047
+val loss: 1.4086
+train bpc: 2.0265
+val bpc: 2.0322
+best val loss so far: 1.4086
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 17600 ====
+train loss: 1.4012
+val loss: 1.4112
+train bpc: 2.0215
+val bpc: 2.0360
+
+==== STEP 17800 ====
+train loss: 1.3909
+val loss: 1.4067
+train bpc: 2.0067
+val bpc: 2.0295
+best val loss so far: 1.4067
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 18000 ====
+train loss: 1.3944
+val loss: 1.4032
+train bpc: 2.0117
+val bpc: 2.0243
+best val loss so far: 1.4032
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+SAMPLE:
+La notte a casa se vedesse e veder,
+I' mi videro tra i formi sotto i passi
+Immuri e volar far ri donde sdegno,
+E tra i fean altri fati e squassar lassi.
+
+Buona festa, vo' dardi non è integno,
+Vi' di me chi non volea tra fama,
+Chi sì l'amor forte chi seguia
+D'uopo asseso ardir, chi va del côrdo,
+Faúr, che tolse rotte,
+Quai ricercar vi' mi rendet il passo,
+Sago è pur di vita rimembrarmi, infede,
+Errore ne l'
+
+checkpoint saved to: outputs/run_20260424_175326/checkpoints/checkpoint_step_18000.pt
+
+==== STEP 18200 ====
+train loss: 1.3895
+val loss: 1.4095
+train bpc: 2.0046
+val bpc: 2.0335
+
+==== STEP 18400 ====
+train loss: 1.3805
+val loss: 1.4002
+train bpc: 1.9917
+val bpc: 2.0201
+best val loss so far: 1.4002
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 18600 ====
+train loss: 1.3960
+val loss: 1.3967
+train bpc: 2.0140
+val bpc: 2.0150
+best val loss so far: 1.3967
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 18800 ====
+train loss: 1.3840
+val loss: 1.4049
+train bpc: 1.9967
+val bpc: 2.0269
+
+==== STEP 19000 ====
+train loss: 1.3881
+val loss: 1.3995
+train bpc: 2.0026
+val bpc: 2.0190
+
+==== STEP 19200 ====
+train loss: 1.3835
+val loss: 1.4049
+train bpc: 1.9960
+val bpc: 2.0268
+
+==== STEP 19400 ====
+train loss: 1.3873
+val loss: 1.3928
+train bpc: 2.0014
+val bpc: 2.0094
+best val loss so far: 1.3928
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 19600 ====
+train loss: 1.3744
+val loss: 1.4002
+train bpc: 1.9829
+val bpc: 2.0200
+
+==== STEP 19800 ====
+train loss: 1.3731
+val loss: 1.3928
+train bpc: 1.9809
+val bpc: 2.0093
+best val loss so far: 1.3928
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 20000 ====
+train loss: 1.3751
+val loss: 1.3936
+train bpc: 1.9839
+val bpc: 2.0105
+
+SAMPLE:
+La notte vendetta
+Sasso
+Regno Amor lungo fra i fior
+Agamen la notte. Or giova
+Ciascuna ad ogni peggior.
+Ché il cor m'accenna: or non sa,
+Che il tuo angelo e fratello
+Novo pascolo alcuno di lacrime
+Obblia di Venere ascose,
+A guider in Cristo dal Mondo
+I lidi d'Amor tutti, e s'offrì.
+Sopra un zen d'Aretudine,
+Antiche madri Amore con la ciuche
+Tôno che hai nebbia di beltà.
+
+
+
+
+«Sor Padre sta serva, sai sonato
+
+checkpoint saved to: outputs/run_20260424_175326/checkpoints/checkpoint_step_20000.pt
+
+==== STEP 20200 ====
+train loss: 1.3816
+val loss: 1.4034
+train bpc: 1.9932
+val bpc: 2.0246
+
+==== STEP 20400 ====
+train loss: 1.3679
+val loss: 1.4041
+train bpc: 1.9735
+val bpc: 2.0258
+
+==== STEP 20600 ====
+train loss: 1.3736
+val loss: 1.3973
+train bpc: 1.9817
+val bpc: 2.0159
+
+==== STEP 20800 ====
+train loss: 1.3702
+val loss: 1.3953
+train bpc: 1.9768
+val bpc: 2.0131
+
+==== STEP 21000 ====
+train loss: 1.3650
+val loss: 1.3899
+train bpc: 1.9693
+val bpc: 2.0052
+best val loss so far: 1.3899
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 21200 ====
+train loss: 1.3727
+val loss: 1.3930
+train bpc: 1.9804
+val bpc: 2.0097
+
+==== STEP 21400 ====
+train loss: 1.3729
+val loss: 1.4010
+train bpc: 1.9807
+val bpc: 2.0212
+
+==== STEP 21600 ====
+train loss: 1.3692
+val loss: 1.3945
+train bpc: 1.9753
+val bpc: 2.0119
+
+==== STEP 21800 ====
+train loss: 1.3663
+val loss: 1.3840
+train bpc: 1.9711
+val bpc: 1.9967
+best val loss so far: 1.3840
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 22000 ====
+train loss: 1.3642
+val loss: 1.3913
+train bpc: 1.9681
+val bpc: 2.0072
+
+SAMPLE:
+La notte sull'alpe, sparso,
+piombano sovra il Naso le foreste,
+ove brillano quei tuoi.
+Or la chiomata le lacera
+nel tempio de  l'antro al teder.
+
+Ed allui, calando, e passò,
+l'erta al grande fasce leuto volgeva,
+ed Aulimento accedea,
+il trace de le gemite colonne,
+gracil mercè) nel tormento l'altar
+gli asbri dell'ombra, e lo stedea.
+
+Con la mensa pel mesto alla sua sponda,
+era l'ebrezza violatrice brilla,
+
+
+checkpoint saved to: outputs/run_20260424_175326/checkpoints/checkpoint_step_22000.pt
+
+==== STEP 22200 ====
+train loss: 1.3649
+val loss: 1.3810
+train bpc: 1.9692
+val bpc: 1.9923
+best val loss so far: 1.3810
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 22400 ====
+train loss: 1.3690
+val loss: 1.3875
+train bpc: 1.9751
+val bpc: 2.0018
+
+==== STEP 22600 ====
+train loss: 1.3720
+val loss: 1.3912
+train bpc: 1.9793
+val bpc: 2.0071
+
+==== STEP 22800 ====
+train loss: 1.3632
+val loss: 1.3890
+train bpc: 1.9666
+val bpc: 2.0039
+
+==== STEP 23000 ====
+train loss: 1.3599
+val loss: 1.3991
+train bpc: 1.9620
+val bpc: 2.0185
+
+==== STEP 23200 ====
+train loss: 1.3681
+val loss: 1.3823
+train bpc: 1.9738
+val bpc: 1.9942
+
+==== STEP 23400 ====
+train loss: 1.3588
+val loss: 1.3864
+train bpc: 1.9603
+val bpc: 2.0001
+
+==== STEP 23600 ====
+train loss: 1.3497
+val loss: 1.3734
+train bpc: 1.9472
+val bpc: 1.9815
+best val loss so far: 1.3734
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 23800 ====
+train loss: 1.3640
+val loss: 1.3927
+train bpc: 1.9679
+val bpc: 2.0092
+
+==== STEP 24000 ====
+train loss: 1.3633
+val loss: 1.3836
+train bpc: 1.9668
+val bpc: 1.9961
+
+SAMPLE:
+La notte vien con entrirti;
+I' non era Tebe guadagnato,
+U' non sia il mio core,
+Che sien di morte sì felici carni.
+3 Per alta sentenza,
+Fate vinto, a novella
+Nati richiamar tanto terreno estinta
+Chiedesti portar far tanto nato:
+E 'gni errato gli affanni,
+Quest'occhiata pompeggiare
+Terribile e tenebra accolta.
+Giovinetta di fortuna creatura
+Vedesti in voi verona e d'anime,
+Ma perchè Corrado rumor chiama il 
+
+checkpoint saved to: outputs/run_20260424_175326/checkpoints/checkpoint_step_24000.pt
+
+==== STEP 24200 ====
+train loss: 1.3504
+val loss: 1.3842
+train bpc: 1.9482
+val bpc: 1.9970
+
+==== STEP 24400 ====
+train loss: 1.3511
+val loss: 1.3855
+train bpc: 1.9493
+val bpc: 1.9988
+
+==== STEP 24600 ====
+train loss: 1.3506
+val loss: 1.3811
+train bpc: 1.9485
+val bpc: 1.9924
+
+==== STEP 24800 ====
+train loss: 1.3532
+val loss: 1.3812
+train bpc: 1.9522
+val bpc: 1.9927
+
+==== STEP 25000 ====
+train loss: 1.3458
+val loss: 1.3768
+train bpc: 1.9416
+val bpc: 1.9863
+
+==== STEP 25200 ====
+train loss: 1.3586
+val loss: 1.3745
+train bpc: 1.9600
+val bpc: 1.9830
+
+==== STEP 25400 ====
+train loss: 1.3611
+val loss: 1.3785
+train bpc: 1.9636
+val bpc: 1.9888
+
+==== STEP 25600 ====
+train loss: 1.3550
+val loss: 1.3854
+train bpc: 1.9548
+val bpc: 1.9987
+
+==== STEP 25800 ====
+train loss: 1.3460
+val loss: 1.3806
+train bpc: 1.9418
+val bpc: 1.9919
+
+==== STEP 26000 ====
+train loss: 1.3500
+val loss: 1.3818
+train bpc: 1.9476
+val bpc: 1.9935
+
+SAMPLE:
+La notte bianca, che omai tosto a la forza del signore,
+le vene all'uomo ed il perduto cavallo, trema alla fuoca
+le strazie della fanciulla, ed anche che di querla
+di un Pastorello; e di grave armate gl'Iddii,
+come gli salutiri piú dell'età, ma salsando piú letta.
+Le schiere devote siano in cielo
+vinte nel nulla gli Arnolei, che Argo, non l'era viva,
+E mormorio il buon buon fior de' castelli occhi uscirà p
+
+checkpoint saved to: outputs/run_20260424_175326/checkpoints/checkpoint_step_26000.pt
+
+==== STEP 26200 ====
+train loss: 1.3471
+val loss: 1.3832
+train bpc: 1.9435
+val bpc: 1.9955
+
+==== STEP 26400 ====
+train loss: 1.3510
+val loss: 1.3690
+train bpc: 1.9491
+val bpc: 1.9750
+best val loss so far: 1.3690
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 26600 ====
+train loss: 1.3424
+val loss: 1.3840
+train bpc: 1.9366
+val bpc: 1.9968
+
+==== STEP 26800 ====
+train loss: 1.3474
+val loss: 1.3732
+train bpc: 1.9440
+val bpc: 1.9811
+
+==== STEP 27000 ====
+train loss: 1.3460
+val loss: 1.3847
+train bpc: 1.9419
+val bpc: 1.9977
+
+==== STEP 27200 ====
+train loss: 1.3410
+val loss: 1.3766
+train bpc: 1.9347
+val bpc: 1.9859
+
+==== STEP 27400 ====
+train loss: 1.3468
+val loss: 1.3738
+train bpc: 1.9431
+val bpc: 1.9819
+
+==== STEP 27600 ====
+train loss: 1.3420
+val loss: 1.3867
+train bpc: 1.9360
+val bpc: 2.0006
+
+==== STEP 27800 ====
+train loss: 1.3453
+val loss: 1.3852
+train bpc: 1.9409
+val bpc: 1.9985
+
+==== STEP 28000 ====
+train loss: 1.3338
+val loss: 1.3761
+train bpc: 1.9243
+val bpc: 1.9853
+
+SAMPLE:
+La notte volta, ch'intorno confida.
+9 I' sol volete lascere in mensa infrante,
+E 'l core huom sempre scoccia fuggendo;
+Seco in pasto pien d'intorno or non viene,
+E rapir quei che giorni all'oprar sentiene.
+12 La mente a' crudi baldanza opra o fede,
+E fie mercede colmo d'alme infra l'orente,
+Neh sforzar tanta la plebe dolcezza,
+Morte, sopra tenebra rosa e gaia!
+E pur tranquillo è il dolce mondo e crede,
+Pac
+
+checkpoint saved to: outputs/run_20260424_175326/checkpoints/checkpoint_step_28000.pt
+
+==== STEP 28200 ====
+train loss: 1.3384
+val loss: 1.3714
+train bpc: 1.9309
+val bpc: 1.9786
+
+==== STEP 28400 ====
+train loss: 1.3372
+val loss: 1.3851
+train bpc: 1.9292
+val bpc: 1.9983
+
+==== STEP 28600 ====
+train loss: 1.3403
+val loss: 1.3807
+train bpc: 1.9336
+val bpc: 1.9919
+
+==== STEP 28800 ====
+train loss: 1.3376
+val loss: 1.3772
+train bpc: 1.9297
+val bpc: 1.9869
+
+==== STEP 29000 ====
+train loss: 1.3375
+val loss: 1.3796
+train bpc: 1.9296
+val bpc: 1.9903
+
+==== STEP 29200 ====
+train loss: 1.3355
+val loss: 1.3714
+train bpc: 1.9267
+val bpc: 1.9785
+
+==== STEP 29400 ====
+train loss: 1.3448
+val loss: 1.3676
+train bpc: 1.9401
+val bpc: 1.9731
+best val loss so far: 1.3676
+best model checkpoint saved to: outputs/run_20260424_175326/best_model.pt
+
+==== STEP 29600 ====
+train loss: 1.3399
+val loss: 1.3686
+train bpc: 1.9331
+val bpc: 1.9745
+
+==== STEP 29800 ====
+train loss: 1.3376
+val loss: 1.3696
+train bpc: 1.9297
+val bpc: 1.9759
+
+==== FINAL ====
+training time (seconds): 3494.97
+training time (minutes): 58.25
+best val loss: 1.3676
+final model checkpoint saved to: outputs/run_20260424_175326/final_model.pt
+
+FINAL SAMPLE:
+La notte è l'orrida Crone,
+D'un cielo ignoto fuggí. Come
+Anca il sangue, e per quanta montagna immine
+Adora cedè, e con l'offesa avrìa
+Per èsser lume peperse e l'ale arrise;
+E allor che sentivan nel sol mi bella.
+Spirano con me costui queste parole
+Sempre, nel fosco, che ad un cingo pelago,
+E a quindi intanto apersì d'un poco piago,
+Ma in questo rugge, e le volle memorie
+La nocte stasse festansi parole
+Ond
+

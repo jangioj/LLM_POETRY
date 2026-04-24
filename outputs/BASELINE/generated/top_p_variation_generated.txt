@@ -1,0 +1,225 @@
+EXPERIMENT: TOP_P_VARIATION
+top_p: 0.8
+checkpoint_path: outputs\BASELINE\best_model.pt
+prompt: 'La notte è '
+max_new_tokens: 431
+temperature: 1.0
+top_k: 0
+top_p: 0.8
+
+POEM 1
+La notte è in un anno,
+Che ddoppo un confonne e cchi lo cappello.
+
+Le mi' bbeve de pijjà er fijjo der core,
+Le du' strilla annava a ddì ar culiseo
+De le vite der zor Maggnomaleo,
+
+E ppò ar fame lo scontento a la gran vecchia
+A li trovaveno in de la carne bbene,
+Disce che cce sarìa trovale spezziale
+A l'incontrario in ne le mano chiare
+Co' la bbocca so' ppiene de freghieri.
+
+E mme disce che li segreti accusì
+La festa de la famijja de san C
+
+--------------------------------------------------------------------------------
+
+POEM 2
+La notte è la speranza della luna.
+E la luna è un poco nella cinguetta,
+una spinge e un po' d'oro di sangue rintocchia
+tra le lunghe spalle di vino calmate.
+
+
+
+
+Perché in ogni cor di vita in mar caldo
+Contemplato prendi, e 'n viso a mille
+Compiente il suo legno e il volto desir parole
+Trabocca di contemplar come pensiere.
+Così disse al fin da la pena incerta
+La forma che sempre splende le spade,
+Con le palme di lei da l'empia prima.
+
+
+
+
+L
+
+--------------------------------------------------------------------------------
+
+POEM 3
+La notte è mmorta, e mmo a le piazzette.
+
+
+
+
+Quando tacitamente della fortuna
+Non si sveglia in tal vita a vita mia,
+Quando ama in questa verità si asconde
+Il cor più non dell'ultimo cor mia.
+E se del giorno al mio ben desire,
+E pur con tal lagrimar provedere,
+O figlio, io vedessi in questo rio
+Che ti posso in questo modo ch'io togliessi.
+Per quel che di questo duol si porgessi
+Amor che di noi solo è di lei men promessi,
+Di lor consenti e
+
+--------------------------------------------------------------------------------
+
+========================================================================================================================
+
+EXPERIMENT: TOP_P_VARIATION
+top_p: 0.9
+checkpoint_path: outputs\BASELINE\best_model.pt
+prompt: 'La notte è '
+max_new_tokens: 431
+temperature: 1.0
+top_k: 0
+top_p: 0.9
+
+POEM 1
+La notte è in un acciaro;
+Di', ch'io cingo la vita,
+Come divina ad esser gioia.
+El principio dell'uom che sarà da me,
+Con la vita al voler suo con le pene
+Cantar vi cento or se darà più rea.
+Or la gloria è salvata la voglia,
+Come or lasciamo il proprio dolor perduta.
+
+
+
+
+Aveva gridando er freddo, der giudizzio
+Che sso' scento tanti pe' ccercà ccom'e cqueste.
+Va' ar frinire e ll'animale straccio,
+Se conossceva le cose e ll'asso,
+Quelli scr
+
+--------------------------------------------------------------------------------
+
+POEM 2
+La notte è la spiaggia pace. — A te vinta
+Viene da un tempo a ponente, al buon dì seguita.
+Ah! troppo vive chiaramente
+Tratto la preda altezza,
+E serba di scoperta e di minutata
+Al tergo infantil, di fatica porta
+Che più saluta della libertà corta.
+Ah! quelle tante ferree donne è amore
+Sen dell'alma anima mia,
+Ch'è schiera e mio santo ancor m'avvien che nudrire.
+O mortal, che gran tempo sol si copra
+Più d'ogni sen vana e più dolce splendo
+
+--------------------------------------------------------------------------------
+
+POEM 3
+La notte è mmorta, e mmo a le pine è una pinella
+Mi' fratello viè un bravissimo santo.
+
+
+
+
+L'acqua mi fu rivivo
+Che fien gli occhi miei che si tollerano,
+E fuorchè il ritratto si combatte:
+L'aura che il mio dolor chiede e fremente
+Di quel sereno matterico e muove.
+
+Quella di fame e di costei si fa toglie,
+Che in ogni modo lontano
+Sull'anima di questa aurea bella spiga
+E tu mi fa dolor delle speranze.
+
+Nè di bellezza alcena,
+Poca ingannar
+
+--------------------------------------------------------------------------------
+
+========================================================================================================================
+
+EXPERIMENT: TOP_P_VARIATION
+top_p: 0.95
+checkpoint_path: outputs\BASELINE\best_model.pt
+prompt: 'La notte è '
+max_new_tokens: 431
+temperature: 1.0
+top_k: 0
+top_p: 0.95
+
+POEM 1
+La notte è in un acciaro;
+Di', ch'un cinqu'o ffio, piombo, piascete.
+
+
+
+
+Questo fragor di linfar rio,
+Quella mia donna bella,
+Questa via se tu con vere
+Giova la patria antica,
+D'ardor languente e d'amor rio.
+
+Su la mia gagliarda anima,
+L'amor de la mia fede,
+Ne la mia vita alma riprese,
+Lunge dal terror palpiti
+Canti fra la rotanza,
+Più veggio vinto a mille,
+Volentieri in mezzo a' cari
+Strali o spezzati trarmi.
+
+Anzi, e lieto eletto stanc
+
+--------------------------------------------------------------------------------
+
+POEM 2
+La notte è ancora.
+O madre, al mio nome arrivo un poco,
+o di ginnastri auratori.
+
+Così spesse germando inferrigiami,
+dov'è benefico del mar travagliato,
+scontro a l'ombre o a la parola trina;
+quando il fratello la luce cosa
+prepose della nostra amaritade.
+
+E di Marte intorno par che mi par che ancora
+al vento mio sorriso e ai colpi strani,
+sí che per lei la casa odïosa estrane,
+se nel dolor si copre le amare rise.
+
+
+
+
+Nel cielo imperio
+Il
+
+--------------------------------------------------------------------------------
+
+POEM 3
+La notte è mmovo.
+
+Ma cchi ha ppijjato a ppane
+Pe' ffarijja de mostrà, ppe' l'antr'anno
+Lo pijjate er buzzichine in finisce.
+
+Come nun dicheno la terra! e ffussi
+E ar ristetto che ccome ve fanno er terremo,
+A mmétte pe' ccome le parole ggiusti.
+
+Ditelo chi vvòi vedé cchi ffussi? er resto
+Fussi puro tanto com'un sor ferreo?
+Dorme a sfrapportà ssopr'ar parte e ar desire
+E ttre ttradisci suo fascese strillo,
+So' li somari, dove scarica er pe
+
+--------------------------------------------------------------------------------
+
+========================================================================================================================
+

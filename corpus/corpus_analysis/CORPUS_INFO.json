@@ -1,0 +1,291 @@
+{
+    "split_sizes_chars": {
+        "train": 8727706,
+        "val": 448766,
+        "test": 526818,
+        "total": 9703290
+    },
+    "global_counts": {
+        "total_characters": 9703290,
+        "total_lines": 356440,
+        "non_empty_lines": 286895,
+        "blank_lines": 69545,
+        "total_words": 1703325,
+        "vocabulary_size_char_level": 231
+    },
+    "line_statistics": {
+        "mean_line_length": 32.58,
+        "median_line_length": 34,
+        "min_line_length": 2,
+        "max_line_length": 265,
+        "p90_line_length": 42,
+        "p95_line_length": 45,
+        "p99_line_length": 55
+    },
+    "word_statistics": {
+        "mean_word_length": 4.66,
+        "median_word_length": 4,
+        "min_word_length": 1,
+        "max_word_length": 31,
+        "p90_word_length": 8,
+        "p95_word_length": 9,
+        "p99_word_length": 12
+    },
+    "stanza_statistics": {
+        "estimated_stanza_count": 44708,
+        "mean_lines_per_stanza": 6.42,
+        "median_lines_per_stanza": 4.0,
+        "min_lines_per_stanza": 1,
+        "max_lines_per_stanza": 270,
+        "p90_lines_per_stanza": 8,
+        "p95_lines_per_stanza": 14
+    },
+    "structural_ratios": {
+        "blank_line_ratio": 0.1951,
+        "non_empty_line_ratio": 0.8049
+    },
+    "top_characters": [
+        [
+            " ",
+            1416432
+        ],
+        [
+            "e",
+            826230
+        ],
+        [
+            "a",
+            783626
+        ],
+        [
+            "i",
+            745624
+        ],
+        [
+            "o",
+            685939
+        ],
+        [
+            "n",
+            498338
+        ],
+        [
+            "r",
+            486807
+        ],
+        [
+            "l",
+            465055
+        ],
+        [
+            "t",
+            416041
+        ],
+        [
+            "\n",
+            356440
+        ],
+        [
+            "s",
+            347031
+        ],
+        [
+            "c",
+            327609
+        ],
+        [
+            "d",
+            250135
+        ],
+        [
+            "u",
+            236412
+        ],
+        [
+            "m",
+            208430
+        ],
+        [
+            "p",
+            186033
+        ],
+        [
+            ",",
+            172184
+        ],
+        [
+            "g",
+            164524
+        ],
+        [
+            "v",
+            133884
+        ],
+        [
+            "'",
+            110463
+        ],
+        [
+            "h",
+            104576
+        ],
+        [
+            "f",
+            87854
+        ],
+        [
+            ".",
+            80555
+        ],
+        [
+            "b",
+            76487
+        ],
+        [
+            "z",
+            43342
+        ],
+        [
+            "q",
+            31705
+        ],
+        [
+            "C",
+            29475
+        ],
+        [
+            "E",
+            27397
+        ],
+        [
+            "è",
+            24538
+        ],
+        [
+            "S",
+            24287
+        ]
+    ],
+    "top_line_endings_last_3_chars": [
+        [
+            "to,",
+            5501
+        ],
+        [
+            "te,",
+            4280
+        ],
+        [
+            "to.",
+            3898
+        ],
+        [
+            "re,",
+            3837
+        ],
+        [
+            "no,",
+            3826
+        ],
+        [
+            "ta,",
+            3149
+        ],
+        [
+            "ra,",
+            3088
+        ],
+        [
+            "ti,",
+            3002
+        ],
+        [
+            "no.",
+            2931
+        ],
+        [
+            "re.",
+            2784
+        ],
+        [
+            "te.",
+            2767
+        ],
+        [
+            "le,",
+            2554
+        ],
+        [
+            "nte",
+            2479
+        ],
+        [
+            "ia,",
+            2452
+        ],
+        [
+            "ta.",
+            2268
+        ],
+        [
+            "ne,",
+            2227
+        ],
+        [
+            "nto",
+            2214
+        ],
+        [
+            "...",
+            2194
+        ],
+        [
+            "io,",
+            2185
+        ],
+        [
+            "na,",
+            2179
+        ],
+        [
+            "ra.",
+            2119
+        ],
+        [
+            "ore",
+            1999
+        ],
+        [
+            "ro,",
+            1983
+        ],
+        [
+            "nti",
+            1870
+        ],
+        [
+            "ti.",
+            1802
+        ],
+        [
+            "ia.",
+            1798
+        ],
+        [
+            "tto",
+            1718
+        ],
+        [
+            "ano",
+            1711
+        ],
+        [
+            "le.",
+            1654
+        ],
+        [
+            "io.",
+            1581
+        ]
+    ]
+}

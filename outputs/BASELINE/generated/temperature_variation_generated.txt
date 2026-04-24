@@ -1,0 +1,210 @@
+EXPERIMENT: TEMPERATURE_VARIATION
+temperature: 0.8
+checkpoint_path: outputs\BASELINE\best_model.pt
+prompt: 'La notte è '
+max_new_tokens: 431
+temperature: 0.8
+top_k: 0
+top_p: 1.0
+
+POEM 1
+La notte è in un acciaro;
+Ed io, pur con l'occhio, piombo, piombo,
+Le mie bestie leggiadre sue prendono;
+
+E amica mia, ben ch'io già via seguire,
+Questo mio stato, ecco me ne par difetto,
+Che di che m'amar sempre il padre mio
+Con oro che mi trovi di primavera.
+
+
+
+
+Quando i tristi premiosi amorosi
+Un povero tempio di primavera.
+Tanto cieca pari via per mia mano
+Mentre in cima l'onda sua strali oppressa,
+La sembianza veggo di mia doglia spr
+
+--------------------------------------------------------------------------------
+
+POEM 2
+La notte è ancora.
+
+C'eran dal mare al freddo
+Vin parvengono gioconde
+Vanno spinti e tronchi,
+Nere a salvar l'anime
+Che interrotte ed infami,
+
+Bruciavano a coperte
+Sorgendo in cima al ciel.
+Di primavera folla
+Rallegri in saluta
+Senza invitto al ciel.
+
+Ah forse al pallore
+Che par caduta man nell'alma
+Par ch'un mattin ch'ei lasciava
+La vanitade balzar.
+
+O dolcezza mia perfetta
+Serve in seme la cantile
+Piangeva la memoria
+Sempre per l'onda v
+
+--------------------------------------------------------------------------------
+
+POEM 3
+La notte è morto.
+Non mi ascolti in braccio altra in cenere.
+Vieni, dove già tentando in groppa tace
+Io non ho l'imperio del mare in acque
+Del tempo, e de' miei baci santi elementi.
+Ecco i miei sensi invitti al mio cor vene
+Per me l'ardente Amor mi splendea,
+L'impresa via del gran Nilo e per mio
+Con gratitudini sorgea
+Vestito al mar d'Amore
+E bosco al dubbioso adorno informe,
+E trasse a forza la forza in dispensa.
+Ma di dolorosa idea trov
+
+--------------------------------------------------------------------------------
+
+========================================================================================================================
+
+EXPERIMENT: TEMPERATURE_VARIATION
+temperature: 1.0
+checkpoint_path: outputs\BASELINE\best_model.pt
+prompt: 'La notte è '
+max_new_tokens: 431
+temperature: 1.0
+top_k: 0
+top_p: 1.0
+
+POEM 1
+La notte è in un acciaro;
+Di', ch'un cinqu'o ffio, piombo, piascete. —
+Eh, bbuggiarona, se ss'annòtta comprati?
+Ch'attibbi annà ssu, vva', ssenza fòra fà bbrati. —
+
+Senz'ubbidienza, (sì), cch'abbuscati ar giallo,
+Ma ppoi ggiucàmio a li cari, e li scarvi. —
+Su.....amo de covallo li rispose. —
+
+Ariatta lo pòntamme lì ppropio du' gallo:
+Ècchepa bbe', ffra nnoi, come li quii. —
+E mme n'arissce: — Madonna, come li melo! —
+
+Bbravo? er piascetto
+
+--------------------------------------------------------------------------------
+
+POEM 2
+La notte è ancora.
+O madre, al mio nome arrivo un poco,
+o di ginnaggia aura spingesti il Ghiaccio.
+Io vengo i liberi; ed io disperando
+altri chiusi dal foco leeva spoglie.
+Chi dice un Dio che quando in trapassata
+prende la sprada, a mijor tempora
+d'Atrida levata. Infedeli, spogliando
+in sogno l'alcuna riveduta
+e il saggio chiodo, a tavoli vergini
+per le nubi rassomiglia; e a tardi secoli
+versi in una imagin fronte e aspettando
+vibra la vi
+
+--------------------------------------------------------------------------------
+
+POEM 3
+La notte è mmovo.
+Nun m'aricordi, come so cche mme fratello.
+Va', ppe' la sera, sant'oggi aritrovate,
+Va la casetta e la ggenia spannate.
+
+
+
+
+Quest'arme diffusa, d'arme inesorata
+che Alcide frusse e la vita mi ricoverse e fremente
+e il generoso monte al fianco suo cuore.
+Sovente era una fronte corte (messo mi ci rimembrasse lungi
+all'opra vederte memoria d'aspettarmi il turbin fato„.
+E quest'ultimo borioso s'alzava quest'uomo che,
+a Te pe
+
+--------------------------------------------------------------------------------
+
+========================================================================================================================
+
+EXPERIMENT: TEMPERATURE_VARIATION
+temperature: 1.2
+checkpoint_path: outputs\BASELINE\best_model.pt
+prompt: 'La notte è '
+max_new_tokens: 431
+temperature: 1.2
+top_k: 0
+top_p: 1.0
+
+POEM 1
+La notte è in Europa.
+
+Veniteci: Vuoi le vite
+Non può, dei piú vaghe amiche,
+Ognun pianta assi; e ti perdona
+A darmi, e bellezze oppur;
+
+E stufa, alle foglie del vincente
+Jan pace dal pin vetusto,
+Dal burrosso Rugiadoro:
+Bontá di Grolia é il bugiadoro.
+Io per Danta ottendove anghiar sembri?
+
+Forse Appoll chiami; l'indusse angosciole,
+Ecco per te m'aszivi,
+Che fanno ogni cimento e nostro trolci
+Ruppe, acute, all'uomo del pianto,
+Qui sul gr
+
+--------------------------------------------------------------------------------
+
+POEM 2
+La notte è ancora.
+Oh! panta l'intendo Elicona scuotono
+già grida per sanguigni. Ho imposto al trecenza:
+feci libervedé l'ardente mensa
+dall'invittoria formagie securo,
+né ûga depon contraria quaistion fronte.
+Oliba, più gagliardo, dritto tomante
+d'Atridéo: vAtridiafe è 'l saper gaante.?»
+Però diccina Atene: «Che voi giusto,
+o destosto Iddio, ben, già, che, costei,
+col gaudio, queste some, qui contenzioni -
+— qui dentro e qui, che -
+quivi
+
+--------------------------------------------------------------------------------
+
+POEM 3
+La notte è mmovo.
+Nun mora un pijjà bbuggna e ppapi Acquale.
+Vai cosa, peggio d'orfano; poveraccia
+Un occhio inedio: “Figura, ecco, e cquer barlo?„
+
+Vesto fùssivo la sant'e ll'ostaccoccia:
+“Séte e.„ — “Fida mó, “in Vescovo-bbello
+Senza giacubbino l'oprò fijjo.„ — intanto:
+“Neppoggi rescita ir paradiso.„
+
+Come je fame„ “Come lui co' fòr dottori
+Nell'animata.„ — “La mia cucuzza notte„
+Si è senza stesso: “T'hanno in scudicànto?„
+
+Li diede pe
+
+--------------------------------------------------------------------------------
+
+========================================================================================================================
+
