@@ -11,3 +11,10 @@ outputs/*/checkpoints/
 outputs/NO/
 outputs/LOCAL_TOY/
 corpus/NO/
+
+*.pt
+*.pth
+outputs/*/checkpoints/
+.venv/
+.idea/
+__pycache__/

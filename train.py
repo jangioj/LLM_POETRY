@@ -25,8 +25,9 @@ from model import CharGPT, N_EMBD, N_HEAD, N_LAYER, DROPOUT
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
+
 # =========================
-# EXPERIMENT CONFIG
+# ARGUMENTS
 # =========================
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -39,6 +40,10 @@ def parse_args():
     parser.add_argument("--sample_tokens", type=int, default=400)
     parser.add_argument("--prompt", type=str, default="Mio padre era ")
     parser.add_argument("--checkpoint_every", type=int, default=100)
+
+    # Resume options
+    parser.add_argument("--resume_from", type=str, default=None)
+    parser.add_argument("--run_dir", type=str, default=None)
 
     return parser.parse_args()
 
@@ -55,11 +60,17 @@ PROMPT = args.prompt
 CHECKPOINT_EVERY = args.checkpoint_every
 SAVE_BEST_MODEL = True
 
+
 # =========================
 # RUN SETUP
 # =========================
-run_name = datetime.now().strftime("run_%Y%m%d_%H%M%S")
-run_dir = Path("outputs") / run_name
+if args.run_dir is not None:
+    run_dir = Path(args.run_dir)
+    run_name = run_dir.name
+else:
+    run_name = datetime.now().strftime("run_%Y%m%d_%H%M%S")
+    run_dir = Path("outputs") / run_name
+
 run_dir.mkdir(parents=True, exist_ok=True)
 
 checkpoints_dir = run_dir / "checkpoints"
@@ -73,12 +84,17 @@ best_model_file = run_dir / "best_model.pt"
 config_json_file = run_dir / "config.json"
 
 
-#CORE RUN
+# =========================
+# MODEL / OPTIMIZER
+# =========================
 model = CharGPT().to(device)
 optimizer = torch.optim.AdamW(model.parameters(), lr=LEARNING_RATE)
 loss_fn = nn.CrossEntropyLoss()
 
-#UTILITIES
+
+# =========================
+# UTILITIES
+# =========================
 def compute_loss(xb, yb):
     logits = model(xb)
 
@@ -93,6 +109,7 @@ def compute_loss(xb, yb):
 def write_log(text):
     with open(log_file, "a", encoding="utf-8") as f:
         f.write(text + "\n")
+
 
 def write_config():
     config = {
@@ -117,6 +134,7 @@ def write_config():
         "checkpoint_every": CHECKPOINT_EVERY,
         "save_best_model": SAVE_BEST_MODEL,
         "prompt": PROMPT,
+        "resume_from": args.resume_from,
     }
 
     with open(config_file, "w", encoding="utf-8") as f:
@@ -154,6 +172,7 @@ def save_checkpoint(path: Path, step: int, best_val_loss: float):
         path,
     )
 
+
 @torch.no_grad()
 def estimate_loss():
     losses = {}
@@ -178,6 +197,7 @@ def estimate_loss():
     model.train()
     return losses, bpcs
 
+
 @torch.no_grad()
 def generate_sample(prompt=PROMPT, max_new_tokens=SAMPLE_TOKENS):
     model.eval()
@@ -189,11 +209,74 @@ def generate_sample(prompt=PROMPT, max_new_tokens=SAMPLE_TOKENS):
     model.train()
     return text
 
-with open(metrics_file, "w", newline="", encoding="utf-8") as f:
-    writer = csv.writer(f)
-    writer.writerow(["step", "train_loss", "val_loss", "train_bpc", "val_bpc"])
 
+def write_metrics_header_if_needed():
+    """
+    Do not overwrite metrics.csv when resuming.
+    """
+    if args.resume_from is None or not metrics_file.exists():
+        with open(metrics_file, "w", newline="", encoding="utf-8") as f:
+            writer = csv.writer(f)
+            writer.writerow(["step", "train_loss", "val_loss", "train_bpc", "val_bpc"])
+
+
+def append_metrics(step, losses, bpcs):
+    with open(metrics_file, "a", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(
+            [
+                step,
+                losses["train"],
+                losses["val"],
+                bpcs["train"],
+                bpcs["val"],
+            ]
+        )
+
+
+def load_checkpoint_if_needed():
+    """
+    Returns:
+        start_step, best_val_loss
+    """
+    start_step = 0
+    best_val_loss = float("inf")
+
+    if args.resume_from is None:
+        return start_step, best_val_loss
+
+    checkpoint_path = Path(args.resume_from)
+
+    if not checkpoint_path.exists():
+        raise FileNotFoundError(f"Checkpoint not found: {checkpoint_path}")
+
+    checkpoint = torch.load(checkpoint_path, map_location=device)
+
+    model.load_state_dict(checkpoint["model_state_dict"])
+    optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
+
+    start_step = checkpoint["step"] + 1
+    best_val_loss = checkpoint.get("best_val_loss", float("inf"))
+
+    print(f"Resumed from: {checkpoint_path}")
+    print(f"Starting from step: {start_step}")
+    print(f"Best val loss so far: {best_val_loss:.4f}")
+
+    write_log("")
+    write_log("==== RESUME ====")
+    write_log(f"resumed from: {checkpoint_path}")
+    write_log(f"starting from step: {start_step}")
+    write_log(f"best val loss so far: {best_val_loss:.4f}")
+    write_log("")
+
+    return start_step, best_val_loss
+
+
+# =========================
+# INITIALIZATION
+# =========================
 write_config()
+write_metrics_header_if_needed()
 
 write_log(f"RUN: {run_name}")
 write_log(f"DEVICE: {device}")
@@ -215,13 +298,20 @@ write_log(f"eval interval: {EVAL_INTERVAL}")
 write_log(f"eval iters: {EVAL_ITERS}")
 write_log(f"sample every: {SAMPLE_EVERY}")
 write_log(f"sample tokens: {SAMPLE_TOKENS}")
+write_log(f"checkpoint every: {CHECKPOINT_EVERY}")
 write_log(f"prompt: {repr(PROMPT)}")
+write_log(f"resume from: {args.resume_from}")
 write_log("")
 
-start_time = time.time()
-best_val_loss = float("inf")
+start_step, best_val_loss = load_checkpoint_if_needed()
 
-for step in range(NUM_STEPS):
+
+# =========================
+# TRAINING LOOP
+# =========================
+start_time = time.time()
+
+for step in range(start_step, NUM_STEPS):
     if step % EVAL_INTERVAL == 0:
         losses, bpcs = estimate_loss()
 
@@ -233,15 +323,7 @@ for step in range(NUM_STEPS):
             f"val bpc {bpcs['val']:.4f}"
         )
 
-        with open(metrics_file, "a", newline="", encoding="utf-8") as f:
-            writer = csv.writer(f)
-            writer.writerow([
-                step,
-                losses["train"],
-                losses["val"],
-                bpcs["train"],
-                bpcs["val"],
-            ])
+        append_metrics(step, losses, bpcs)
 
         write_log(f"==== STEP {step:04d} ====")
         write_log(f"train loss: {losses['train']:.4f}")
@@ -280,27 +362,26 @@ for step in range(NUM_STEPS):
     loss.backward()
     optimizer.step()
 
+
+# =========================
+# FINAL SAVE
+# =========================
 save_checkpoint(final_model_file, NUM_STEPS, best_val_loss)
+
 end_time = time.time()
 elapsed_seconds = end_time - start_time
 elapsed_minutes = elapsed_seconds / 60
 
 write_log("==== FINAL ====")
-write_log(f"training time (seconds): {elapsed_seconds:.2f}")
-write_log(f"training time (minutes): {elapsed_minutes:.2f}")
+write_log(f"training time seconds: {elapsed_seconds:.2f}")
+write_log(f"training time minutes: {elapsed_minutes:.2f}")
+write_log(f"final model saved to: {final_model_file}")
+write_log(f"best model saved to: {best_model_file}")
 write_log(f"best val loss: {best_val_loss:.4f}")
-write_log(f"final model checkpoint saved to: {final_model_file}")
 
-final_sample = generate_sample()
-write_log("")
-write_log("FINAL SAMPLE:")
-write_log(final_sample)
-write_log("")
-
-print(f"Final model saved to {final_model_file}")
-if SAVE_BEST_MODEL:
-    print(f"Best model saved to {best_model_file}")
-
-print(f"Training time: {elapsed_minutes:.2f} minutes")
-print(f"Run log saved to {log_file}")
-print(f"Metrics saved to {metrics_file}")
+print("")
+print("Training completed.")
+print(f"Run directory: {run_dir}")
+print(f"Final model saved to: {final_model_file}")
+print(f"Best model saved to: {best_model_file}")
+print(f"Best val loss: {best_val_loss:.4f}")
