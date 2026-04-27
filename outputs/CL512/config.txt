@@ -1,0 +1,22 @@
+run_name: run_20260424_232320
+device: cuda
+train_length: 8727706
+val_length: 448766
+test_length: 526818
+vocab_size: 231
+context_length: 512
+batch_size: 16
+n_embd: 256
+n_head: 8
+n_layer: 6
+dropout: 0.1
+learning_rate: 0.0003
+num_steps: 30000
+eval_interval: 200
+eval_iters: 20
+sample_every: 2000
+sample_tokens: 400
+checkpoint_every: 2000
+save_best_model: True
+prompt: La notte 
+resume_from: outputs/run_20260424_232320/checkpoints/checkpoint_step_26000.pt

@@ -1,0 +1,2037 @@
+EXPERIMENT: TOP_K_VARIATION
+top_k: 0
+checkpoint_path: outputs/CL512/best_model.pt
+prompt: 'La notte è '
+max_new_tokens: 431
+temperature: 1.0
+top_k: 0
+top_p: 1.0
+
+POEM 1
+La notte è il suo petto.
+Riedon mentre la spoglia
+e la radice azzurra
+inveronata di Nokra
+e metteo la soana famiglia
+sul forente sonno scherneficata,
+e confida tristezza
+custa nel monte di giornata.
+
+Merla, il gorgo dell'ira,
+su eterno su l'arruffano
+per eccelsa nube, antico
+venerandomi su rami,
+lungo l'ombra del prato
+tra il vetro rupperanno
+la tramante del bosco!
+Sovr'essi la calma amica
+al pianto prego il cor Nocè!“
+
+Oh, che in ferro a
+
+--------------------------------------------------------------------------------
+
+POEM 2
+La notte è la mistica d'auriga
+Il buio piè la notte.
+E il primo percosso temprò l'arte
+Non per la terra stretta, allo smalto
+Passeggiando il peccatore che si vuole:
+A l'armi s'infuria nella folla
+Ascosamente dal mio Sol consiglio,
+Che aimè! Dimmi, se tu, Signor, mio padre!
+Ve' che la terra sia la nova pecca,
+E la mano a te sta odorata polla
+A trovar quel verde amante: alto
+Mercè fra le madri tua propria frolla.
+Verrà sotto le campane il s
+
+--------------------------------------------------------------------------------
+
+POEM 3
+La notte è fatica!
+Son più di ciascuno
+Che balli il potere
+In amari lieve,
+Spasimo col funerale
+Di frequente onore,
+Uggendo per il sentiero
+La voce l'amata orma.
+Solinghe via più lavori
+A respirar le rose
+Il candido suo dolce:
+Invocabil cor gli stiva.
+D'invochi capelli arsero
+Larghi i pregi anni luce.
+Per uno spirto momento,
+E per molti circondati
+Lungo la briglia il viso,
+Travolta le care ritorna.
+Sanguignando l'infinito,
+Da lei pe' vost
+
+--------------------------------------------------------------------------------
+
+POEM 4
+La notte è stata a sempre di cavalli,
+e là ognuna la guarda parua d'oro.
+
+Svolpiava a poco a poco un negozio
+e percossi i suoi limiti soavi
+co 'l vortice negro soccorso vilio?
+
+Un fior rispose al lume di nebbia cinto
+povero superbo candido e sguardo:
+L'opera, o diva merluzïon, nel sangue mare,
+
+Di rame, mormorando e d'april sentenza.
+
+Dissi per queste grandi opre altro giorno,
+per là d'olezzanza al Nume di Britanno:
+onde a conciar sia d'u
+
+--------------------------------------------------------------------------------
+
+POEM 5
+La notte è solitaria;
+e le genti dei cari fiori
+al pargoletto
+figliuol di fulgida faccia.
+Le laure delle brune
+misereo? E il pino infranta
+s'impergono per un gioco nero,
+chi nel tuo enfitto mare,
+chi dei morbi scolpitare,
+pende de' pelaghi auguri.
+Ed a lui. Neanco i prischi
+son perfidie degli uomini
+e vele gli pari interrogare.
+Lascia Mirria; tu. Pari
+
+in quanto pare prestante
+dai bellissimi occhi d'amore,
+lui — che udiamo rispondere
+sui
+
+--------------------------------------------------------------------------------
+
+POEM 6
+La notte è suo grido che giace
+ fallace di nubi chiuse;
+e per l'innocente povertà e fido
+che innalzano, fantastiche sestivo l'infiamma.
+La sera e giunge maledetta de' fiumi
+dal ditorno recava alla crocea,
+l'armi su l'aurea vergine placida
+squilla della luna,
+che la zampilla si distendeva rapida a vedergli
+fuggivano. E chiudeva lo scherzo già tesoro destume
+certo figurato fosse di Troia.
+Era la riva. E il vecchion, chiudea Troia
+con quelle
+
+--------------------------------------------------------------------------------
+
+POEM 7
+La notte è stata dalla vita quando,
+E han duro e fummura.
+Tutti i suoi segreti
+Per sé ti posa intonar l'han fatto.
+Un dì che, diventando,
+Talor n'han beati e presto,
+Per me stesso con un pasciuto,
+Su me l'han beàto fatto.
+Il pretesto intesi, io rigorgo
+Che tu dir vi vedeva immortale,
+Il prencipio della mia dolcezza estrema:
+O mai vorrei vedermi la noia
+Lodolosamente a passar tenace,
+Dare avverrà già men ch'io sapei.
+
+
+
+
+Perchè sia che tt'
+
+--------------------------------------------------------------------------------
+
+POEM 8
+La notte è tra i dubbiti più i fiori:
+Tu più crud'erme, o morto; se trovi
+L'aspetto gleominoso altero a porto.
+
+Godi ne i nevi ceri: l'oblio stretto
+Parle, o bella fiamma; e, s'apre del cielo,
+Per silenzio la gran nube ardente
+Giovenil porto, e del pianto le mani
+Ossa i cantici alla tomba apportando;
+
+Qual triste più non c'è, tra degamente
+Parlono a terra concentar la baretta,
+Non assai più dolci del mio caretto
+Chiamarono a cercar di cam
+
+--------------------------------------------------------------------------------
+
+POEM 9
+La notte è bbona salutarti
+Non perchè bbuttisto a ffannestiéri:
+Otto,  a Ssan Ninfa mi' padrone mia,
+Vò ddì cch'er marivale lestamente.
+
+Cantiti, finiro a ssentitozzia,
+Smorfie, e ddu' porcatura... In cu' le mole
+Passïone!... e ss'ora è un de-gran caso,
+E ttutta la sceca a mmezz-gran prete.
+
+E ccinquantita, ch'hanno bbell'occhiali,
+E ar Terrezzo, la capanna truva,
+Drent'ar cazzo pe' le streghe pluva
+Ca ppatirone, senza parlà ccali.
+
+Propi
+
+--------------------------------------------------------------------------------
+
+POEM 10
+La notte è Rìa.
+Drento da lui la morte del mortale!
+Diraconde a noi d'Adamo:
+La donna tutto conoscente estasi
+L'umile padre con il basso cinge.
+
+Con tutto avvolge il pallido superbo,
+L'immensa de' figli tinse un Tibro
+Al suo dolce Platon, mentre alfin sugge
+D'Italia vermiglia il padre esprime.
+
+Nel giusto spirto dall'Alpi sul'onde
+Si avventa, ove ritinge etere crete
+Recano i rami e le gronde a le nete
+Selve dal suo lido: l'amica vete
+Ulul
+
+--------------------------------------------------------------------------------
+
+POEM 11
+La notte è di soli.
+Oh quanti abbagliati per uno
+su cui chi parlan fendere
+profuma dai boschi:
+- Nol vedi come la vergine via:
+non si sembra già musiche
+altro adombra di vita,
+fa' che col muro di lontananza bruna!
+
+- Non obblio finalmente e che non credere
+qualche notte mercia il viso camposanza:
+or appunto è bello, in su quello avvesto
+al viso braccio delle divisere,
+che l'arse basseranno le rame son,
+l'arme e le imagini s'annoiano anch'
+
+--------------------------------------------------------------------------------
+
+POEM 12
+La notte è il candore dell'Ulisse;
+Ch'or di Numi ov'ebbero contra n'adorno
+Lo spero adornar la foglia con breve
+Di Tirsi e di Notte e di Ignuda luda
+E misra e poi sanz'esso vuole, e dolce
+Al cammin che a sì lungo adorno amanti.
+
+
+
+
+SPesso il bel vento in vano,
+Tu per l'alta prua ancor,
+Nel gelo di lauro splendor,
+E tu m'è fuggita; o priega
+Al mal credente, e dall'ombra!
+
+O in dolce parole, giovine
+L'amoroso profondo
+Ifigge il ciel la prim
+
+--------------------------------------------------------------------------------
+
+POEM 13
+La notte è il precomo
+la terra di Sole altera;
+cadde che pissan dell'Atene
+perdon di Cirra ai venti.
+coro
+Tai fratelli, o terrori, in ori, vivranno Francesci,
+che plausa la ruina di ciascunò.
+le tue canti di tua bocca spoglia, sorgevi.
+terribili e tirmeni coglievi nell'argine.
+la tua biada lontana
+il delico capo alla terra inimicita.
+
+anfitríone
+Li avveleca, Iddio voglio
+sapesti ch'uno stridulo inegario.
+La tua vendetta è di sangue piú as
+
+--------------------------------------------------------------------------------
+
+POEM 14
+La notte è ssulla testa de galanti,
+Carca, Sarca, Prancipe l'aria manti,
+Quann'aveva appressato ch'er macello.
+
+Ar tumulo la scinqu'antro futtuti,
+Pòvera maggnà, nun capisce de muti....
+Eppuro, sonacchi, nun ze arimane
+Pe' spuntà l'affaccio e ss'ammassassino.
+
+Disliò. Prima carca, io dico un pajjo
+De bbrava-porlamme e ppijjo faccessi
+De ggiorn'in un asino de fà ccornuti.,
+
+Disce ch'uno arza un ziggnor ventiscino!
+Ma indóve ch'edè ssi lla
+
+--------------------------------------------------------------------------------
+
+POEM 15
+La notte è un'aria anima
+Qual di Tirsi atterrita
+Per acqua fame,
+E la Porta dell'eco
+Lampeggiante e vita:
+E trionfante a Lui
+Sprechiando per l'ardue
+Labbra, e ai molli arcani adulti avranno
+Sfingon le fole, ed i rivi
+E su le culture acute
+Rinnovate corde
+Muggite ripose.
+Ond'io, mille preme
+Altrui che l'incanto
+Opere e mille acute
+Che dell'util frode, che scuote al core
+Il sangue rinasce:
+Onde le rose apriva
+Del ciel beato o viva
+Le virgin
+
+--------------------------------------------------------------------------------
+
+POEM 16
+La notte è gran scotto: e le stelle?
+Chi è questa l'ultima che mi stagna;
+E 'l capo che nel balbetto di rotte
+Dui un dolcissimo collo arco-bianco!
+
+
+
+
+Peggiore non sia improvviso al piè sublime,
+Vede far nelle retaggie dei primi
+E quando degli uomini confini
+La calma si strugge a l'alto monello,
+Comico forma del dirotto ausone,
+Accanto e non più son dolci cadanti,
+Far che come sento muove l'arpore,
+Le sue belve fra l'elmo, e dal amplesso
+
+--------------------------------------------------------------------------------
+
+POEM 17
+La notte è nel mio divino ove untecchia,
+c'è l'ape, e spira a durarli la Consorte.
+Noi sarà cosí tutti i pensieri.
+Quegli, teco è trovo! e quel vïaggio
+per impiagarle destino rifiuta —
+perch'egli non saràsse cultore
+a Cataidino mio là, ben ch'io ciaggio,
+son come armati di sotterra spiaggio?
+Questo è raffrenarli a bronzo ondeggio.
+
+
+
+
+Io l'ho collato in sì bel volto face
+Indi devoto, che posso adunca, e plora
+Oscurammo, fammi in quel che
+
+--------------------------------------------------------------------------------
+
+POEM 18
+La notte è il mio mare.
+Ella tremola è la terra
+il cielo attravi: e son tinto che lingue è entrati!
+merci da poter la terra della vita.
+Con un desolato la macchia si ruba
+su c'era, con la faccia.... Passavan gli sguerri.
+E il Cielo luce, quale Argiva corona
+su per la santa estate a poppa di luna.
+Ed ora sotto l'urlo che giungeva al sole
+delle piaree opera così;
+come l'aurea dietro di rondin paffuria!
+
+coro
+
+Ardo, a quegli occhi un'acqua,
+
+--------------------------------------------------------------------------------
+
+POEM 19
+La notte è l'oblio. In quella bella carra
+Pendona è l'oblio. O avvolare
+Forse a scagliar l'utile invocatrice,
+
+O amore; o dolce Madre che dura
+De l'odor lasciando, in dolente cura,
+Che a lui tessi va: Zaffiro è biscio.
+
+Scendi, o Dio, Rebe, tra le ghirlandezze,
+Gl'insalj passi fuggir sovra l'erba,
+Vieni, la morbo de' venti. O Oceano
+Donza, o figli, e Parigi, incontrar tremavi.
+
+Vieni, o Sol, soffia e somna ancor mendace,
+Ninfa infamia l'e
+
+--------------------------------------------------------------------------------
+
+POEM 20
+La notte è sacca nel fondo
+silenzio. Su se rinchiudere
+la pieva: fremendo
+la nutrice, troppo i fiori.
+
+Fremi e ronzellini
+la mela casta dei zuffi
+ecco
+
+dove un udisti il piè-ritti,
+nuovo dolore avanti
+che forse ei danno ovunque feroce
+nuovo sbigottiti
+e la patria, la patria
+medémo, rinfrante
+e all'ombra dei bassi e passi,
+susata di virtù.
+
+Ma il nembo dai talami
+che io sempre talora,
+ei son dal cuor che t'ha chiamavanti
+e tu la lodava pur
+
+--------------------------------------------------------------------------------
+
+POEM 21
+La notte è al fonte, al muro, al fanciullo
+Che nuvola l'avvinciare d'amore:
+Et scende t'amo al mio pianto onde t'amo!
+Tirò il raggio dell'alta beltade
+Col placido sovrano andare al vaso,
+E la bocca con la rupestre spoglia,
+Per lei di neve allegrezza cadrente,
+E piangere in su le fierezze lacrime.
+Sì destare in un meglio pensier le ponsi,
+E sì per altrui ballo oltre più non vane,
+Dove m'appan, m'è difetto basso),
+E 'l più non v'ha comperta
+
+--------------------------------------------------------------------------------
+
+POEM 22
+La notte è danzar, che più d'una spada
+Il suol ci pose in parola al cor grondi.
+Il rosso immenso rubitano in alto
+Spasimo calicitantno e mutante,
+E del ciel primo n'ebbi cupidonar.
+
+«Sbarro e pur da destrieri» e poi moltiplica
+Nel suolo mattin del ciel n'ebbi le zolli,
+Squittiacar le spranze.
+Il papave ritroverargli a campo
+Le ascèle con l'aiuole, e nel mondo vuoti
+Marcelle di cetra e di fiori accolti
+Non gli luce insegneranno.
+Quel lambi
+
+--------------------------------------------------------------------------------
+
+POEM 23
+La notte è il tacito,
+è due core che al mondo nero che su pesante.
+O dol contesa vi lancia al piè penna lavorata,
+la famiglia infinita, la foglia il pattir gli odi
+non fumigli, non mentire, e si piacerà.
+La calunnia è morta che mi sostighi
+della terra; e il riflesso cricchirò resapirmi,
+ecco il nero freddo pulito e il nero nero,
+oh! resalirmi maligna con appesi
+le membra, mentre d' oro e di scapolar!
+
+Fa la coppa — alla gombra moribolare
+
+--------------------------------------------------------------------------------
+
+POEM 24
+La notte è la notte.
+Innabisi ai vei più la stagione,
+che il piè caduto apparitorno in torno.
+Ma le notti precette
+è fatto che fa la notte alzano il core.
+E a qualità presso l'estrema quercia
+mai non aver lieto di me stesso! .
+La villana libertà di superna
+acerba di fiamma, o lungo nembo.
+Il mio comandotto fu impotenso.
+E non parla con l'esperta mi sperna,
+che sospirando ho già di me me chiama
+che non so il vento io cotanto, e tedio
+ho ri
+
+--------------------------------------------------------------------------------
+
+POEM 25
+La notte è tristezza di canti?
+Duce e braccia le spese azzurra il legno;
+e del tempo le Sponde Beffe, e gli Dei
+le vie per fredde di voti, e una colpa
+s'offre, e volge piú nel male in coro,
+oh! che le lodi e fiori, oh! niun non ha ben,
+piuttosto pallido al giovenil tondo!
+Anzi il dubbio ed avesse or m'intorpido,
+correndo. Io voglio, al re Pietro e al Sagresto
+d'Artico martír: Viva io sono! Io credo
+che la Canona alta porgo, e gli sdegni
+i
+
+--------------------------------------------------------------------------------
+
+POEM 26
+La notte è la tua numera nel cielo mortale.
+“Ecco?„ No, ecco!„, mmé?„ “Ec...„ “Però: “Ffillo!„
+
+Er zangue!„ “Eh,„ sse maggna è un cavallina,
+Che in tai l'odore se sa stà? Ppredicato,
+Che sso' bbrutti, povera ggente affetta
+De tutti bboni e nnove pochi vina:
+
+“Che ffa de casa er prelatamo dell'ossa,
+Tratanto du' prelati addosso er zelo,
+Sciaffò ttra discorrenti e ttraverzelo?„
+
+“Lo Monarchi ch'edè?„ “Dorme?„ “Ecco, “lo spalto„ —
+“altri,„ l
+
+--------------------------------------------------------------------------------
+
+POEM 27
+La notte è una cima di turbare:
+ma la soglia al reo cimitero,
+i pianti tuoi per insegnare
+visiti amica di ritornare,
+amo chi rida dal sozzo amore
+dell'iddio, la doglia nata, accanto
+del braccio ferreo braccio,
+per la persona d'anni carole.
+
+Questo, quegli ozi a vederti,
+chi batte attorno, a venti, stolti,
+da questuo legno dritto, che rimbaio,
+mentre dai camini del ventre,
+nei piedi dell'aria che fuggìa Tracia,
+egli dietro a la rupe et alt
+
+--------------------------------------------------------------------------------
+
+POEM 28
+La notte è lontana macchia —
+vide una scorta — ne stava una prora,
+piangendo ch'io son riposo di notte
+la romina battaglia, — «Non so in quale».
+
+Questa si scuote quanta fossa perduto
+più d'un languìlo fra le agnesti abissi
+e, ma giungi al mondo — questo in plebete
+— o in lei, Amicille, — o meritade subito
+gridi il mormorío, — plauso — Olma è saluto
+l'orme piagge, — perdona — Addio in baciardo.
+
+Io non so dir qui ne volea — Qui tutto;
+qui
+
+--------------------------------------------------------------------------------
+
+POEM 29
+La notte è scherzare,
+O sfrena, o signor di me che mi sia certo,
+Che mi stilò nel miserio amor minaccia.
+Quando torna alla Dossa bruna mano,
+Jer dì mia, che 'l fare esser passano
+E ha un dì che il dì ti riascossa e in fondo,
+Poi lasciando ad altre cose.
+Lasciando il nome mi dica antica,
+E 'l canto fiero nel disio, fra noi morta,
+E tra sè viva pentita i dolori;
+Nè mi rillegrò lunge o spoglie a lungo
+Delle lagrime, che sì del caro ascolto
+D
+
+--------------------------------------------------------------------------------
+
+POEM 30
+La notte è notte.
+
+Or anche bella, e rivolta,
+Su l'orror de la notte,
+Voci rordi infinita,
+Forma ad ogni volta...
+
+Vince plaudono il verde
+Plausi su le lunghesi
+Cime di lucide bronze...
+Taluno il sangue Ambronzo.
+
+Fiori di bambine a morte
+Non piegherai da le nubi
+Su le aripate immote.
+
+Dal purpureo servo a lí,
+Gemine a i cimiteri
+Volghe l'amor longano
+Non so qui so come sorte.
+
+Anch'io ritorno. Eminente,
+Lungo il desir di sirena
+Qual moss
+
+--------------------------------------------------------------------------------
+
+POEM 31
+La notte è Libertà.
+
+Il capo è il bambino al piico
+è la ladra; ma un vèl.
+Ne piumpe sei l'aria estraneo
+che omai su quello sol.
+
+Il crin non v'era più lulla
+come una lunga dolce,
+in tonaco è stato in mano
+più casta-rossa.
+
+È un monumento il medita
+di súbito colerare
+la pigrozza della vita,
+sempre mi strugghi un altro e leggio,
+sa egli cede il piede edita
+di chi torna? Un zole il Mernano
+acceso un'altra vòlta,
+come un altro sguardo, e come
+
+--------------------------------------------------------------------------------
+
+POEM 32
+La notte è quella foresta,
+E forsennata bruna come ella
+Sacra tutta la gola d'estate;
+Ma tacque visibili il confin si andate:
+Muovate è in groppa di Lesbo e bianco:
+Così in suo modi, e fu troppo deriva,
+E di conscïenza io que' modi che diedi.
+
+Tutti il verzier quel sangue antico piedi
+D'industri tremendi e mezzo allegrame,
+Mi sento e tremendo la speranza aurea
+Far senz'esser doglioso e non comportame.
+
+
+
+
+Gigante gli Argillini;
+gridi e fi
+
+--------------------------------------------------------------------------------
+
+POEM 33
+La notte è il tuo sospiro!
+De la curva rosa, in pianto mai la fossa,
+Quando far di forme e di rasspetto il busso,
+E la fronte ronzierevol del figlio.
+Vedi, ma dunque m'avanza,
+O in pace per me non so ch'io fossi (14)
+Misterïosa costei, tristezzo e vile;
+Le care notti mie giammai,
+Ho già il giorno nelle lor mie tormenti,
+Servi morire il nome tuo giorno è morto.
+Qual sempre siam, qual morir m'intorno,
+Pianta il core mio sentier a Cesarico
+L
+
+--------------------------------------------------------------------------------
+
+POEM 34
+La notte è per cui la discendente poca sia famiglia,
+Presto, viva delle spalle e grande nel sole
+che rimembra il corpo i passi, o par non piglia!
+Ella ne vede, è passato; e poi le siede,
+gía con un ramo di fiori e dolci neri
+sempre avesse appena eD ascoltarli di morte!
+E i messeramenti, o fiorenti, diavolo
+Eco e diva, c'irretamente figliuolo
+o vecchia musica a riposar l'erba:
+e ne vide là con acque al fuco e l'erba,
+al bombitoso affatica
+
+--------------------------------------------------------------------------------
+
+POEM 35
+La notte è satolllo.
+
+La selva si sposa con un nucero strumento di tra l'aride — o schiave!
+se questo palafre ardassi da forma — padre il bel dorso impedito:
+ma se qui la faccia l'affanno del mattino agomico a Tirre.
+
+
+
+
+Sì,
+O bella Don'Pirava
+Amica ed Angelo,
+Che per lei cotali
+Del Signor di Marava:
+Un Ciel riserenato
+E di Maggio richiamava
+STETTI S.
+
+Strofe
+Ahi,
+
+donna, chi la fossa da inarcanza stupita
+delle Agamennine iscannatu tutte
+
+--------------------------------------------------------------------------------
+
+POEM 36
+La notte è l'occhio, a pena a sperai,
+Che abbomino a sè gente
+Immortale non ha più di stelle.
+
+
+
+
+De maggnani! Fa' mmaledetti Aggesi
+Che inzin'a schiaffie io ve ne posso ariso
+Addì de tajjo e vve ne ricami
+De godeluccio pe' li mozzi in nesio.
+
+Dell'occhi serrati a un cristiano sceri,
+E ggnisuno, inzin de bbelle, è un carcaro,
+Si sso' le cose de porche fescenti,
+Si cce potrebbego io, dille Bbattesi.
+
+Pe' bbocca d'un modo quela cquadrina,
+F
+
+--------------------------------------------------------------------------------
+
+POEM 37
+La notte è verde meloti
+Sol d'Italia trista
+In questa immense e pianta,
+La notte si verde doti,
+Qual di voglia si scoti
+Il buesto destin, quale montana
+D'interrotta svergoticosa sola
+Si dicaro in pietà, tutta quale
+Ciascun vecchio augelletta,
+D'altri ad otto il sacrificio amoroso,
+Volgesi il bue, e le grotte
+Le ancor col tortoro e il tonfo e il sangue.
+L'incauto amore immota,
+Allor che razza e cheto
+Il pingue sangue dell'impeto mare
+Dà la
+
+--------------------------------------------------------------------------------
+
+POEM 38
+La notte è bisogna.
+Chi porto è un uomo indigente. Qualche testimo, corpo
+è una scola alza, che pianti ai corpi suori, o padre,
+deolora per via mortale, scoppigliosa.
+Chi non sei tu! Certo dia, Ladre ed Iaco.
+Misericordia e Dio Dio dei cuntori.
+Oh! Nel buio cruccio! tra due sorrisi
+le fansi lampade, che figlio d'Olimpo primo
+là donna, ed i fanciullini mondo e d'immortali;
+tre profondieri di taure onori più non rubellino
+e per tristi voler
+
+--------------------------------------------------------------------------------
+
+POEM 39
+La notte è il telo guidar:
+ché esce di quel tramonto,
+il troppo veloce è la strada.
+E n'è più il ricordo amor,
+e più del pianto e non abbiamo
+la nube cinta e l'amor. —
+A me furon contro improvviso,
+e già spengono per i petti,
+in ambo più di vie più forti,
+divino col molto pianto. —
+— Amor di quella vede mente
+più nube e bene.
+Sei contrato dal mio cammino
+in un rivale a compiutura
+meglio ascolto a scalpellar!
+
+Più divino a un materno
+tramo
+
+--------------------------------------------------------------------------------
+
+POEM 40
+La notte è nel bianco spoglioso
+suona che scioglie annisca
+la stera sì come un sapor di bianche.
+
+Non seppellite, non importarono,
+non romba più felicità, veglio viva.
+Frugatevi in un corno, non più forte
+solo aveva a chi giorno a noi la scorte.
+
+Ma non so, per quell'april d'anni sete
+già tingimil di sempre, com'anni
+zitellino la region per lui.
+
+
+
+
+Oh, pparlate, donne! A tte, commaria...,
+A la sera, da disgrazzià ppavora,
+Ce ggnente e ll
+
+--------------------------------------------------------------------------------
+
+POEM 41
+La notte è ccapitale.
+Fa è ccusì. Vvederne e vvedere ppiù bbrutte:
+Impisticabbilla e ggià mme s'è avanza.
+
+E ffàmmele a le logge? un bon zoccorto,
+M'hanno dato er padrone: ar coscamporto
+Lo quarn'inginocchia, si quanto potrebbe
+Nun zo ccrede, famme de facci a sforza.
+
+
+
+
+Gesù d'Equili vaghi
+tutte su l'urbe,
+montan tenebre,
+gembre le tombe
+cantano atrici
+stelle,
+
+l'italico negremo
+senza vetta omeri,
+sì dolcemente
+col cinico del petrarco,
+q
+
+--------------------------------------------------------------------------------
+
+POEM 42
+La notte è questa è formica
+Dalla sera un lontano.
+Così per la via lampa
+Senza diffondere onore
+La smorta veloce.
+
+Chi fa chi può solo
+Dal Dio bel volto tetro,
+Chi in rimorme il Messina
+Dell'universo mare,
+E il Mitichesmo aspetto
+Rileviera di Venere
+Seduto in Pacificare.
+
+Spira il Carroccio intanto,
+Splende s'alzossi intorno
+Sulle genti vie dal Mare
+Che riposammo a Nereide
+Fluirà l'improvviso
+D'un'altra Vena uscirono.
+
+Cocchier d'ogni alt
+
+--------------------------------------------------------------------------------
+
+POEM 43
+La notte è crescente.
+E quelle vette ciascuna o tenue zabbe
+il barbaro vischio, e l'imprecazzionanza
+sotto dell'aria. Or gli è fatto notte!
+Mentre via ch' il fuoco e poscia
+sulle conturbate e poi sepoltime!
+Così nelle città del fango scolto
+e la dura si alzò sul capo intorto.
+Feci il giorno suon del buon calarone
+ch'all'amaro baci e minacciando or prossimo
+le folche frangenti e torfi e porpora,
+mutando e palpiti e il frutto salemo
+decreto
+
+--------------------------------------------------------------------------------
+
+POEM 44
+La notte è che sola ti fa diletto,
+Non è chi ha chi mai la fama mia buona.
+
+
+
+
+Cristo lo pianto, amico motivo,
+strano affemuto d'essere infida,
+in cui fa io ruffil, per un formo d'anni,
+senza arcana questo odio altamento
+punto vive. Il cristallo, or cristiano,
+l'atroce vide di cima infida,
+il carro atteggiarlo. Ah! ma quella, Iddio!
+Infelice aperse di ricchezze
+col proprio del tuo stato
+in un muro di mormorà la fossa
+tanta per noi morrà l
+
+--------------------------------------------------------------------------------
+
+POEM 45
+La notte è il volto che formai la lida
+silépido, lunga, da cui l'agita
+settante la penizïon schernita.
+
+Vide qualcun fior che l'altare appena
+chiede in veste e chiamai sembrai gridare,
+ed è in veste d'april che alla statua
+dei gorghi il prete, alto finda lo sguardo
+piange il fior che passò, chiamar nell'ardore
+d'esser rimaner le sciagure, solo
+nell'aria tacendo consorte, e passa
+di tonante conforto e di ramo,
+per me che li mira è giustizi
+
+--------------------------------------------------------------------------------
+
+POEM 46
+La notte è la mano afferma.
+Pargoletto, oh mia fiera,
+Se fugge e figlio all'ara
+De' fiori al danno!
+
+
+
+
+Così devi. Al leve d'un brancio è presa: il lugubre, manipolo,
+bruca le culle. Ed uno scoglio per l'Otrio vedeva filaccia,
+senza mare cicale un vecchio d'un poggio, natura Diabo!
+Giù, non velarono: chè l'aotto non solleva dagli dèi
+che ora a presso assonna si sentì diserto. —
+O Gryllo! voi vedete questo che sospingesse via
+che tu assors
+
+--------------------------------------------------------------------------------
+
+POEM 47
+La notte è il tempio,
+
+Boccheggiarà la cratura,
+propio che vicino alfino,
+replicar l'usignuolo
+che il buon fratello ai boschi,
+
+scioccò, dietro al sommo al fatal camposanto
+tutto muto e libeto,
+fu cantato in coro.
+
+L'esito morivò salutandosi,
+del marito suo poeta;
+l'aria e l'aria in cuspugnarsi lontano
+una vena; e in vece imbruna a contrarie
+spogliarsi correan le sorelle ambigue.
+
+Eppur come rimedio, squilla vai
+sarem di lauri ombra le se
+
+--------------------------------------------------------------------------------
+
+POEM 48
+La notte è questa rosa; ma s'imbocca,
+Uscelli inzeppa la notte di Roma,
+E c'è bello e più ch'arda di scocca.
+
+Er omo suo per eterna devota:
+Damme che vvedi la frega er marito
+De galoppa co' la rauffa, e cco' ppenito
+Saccheggiano che llei su nnu' la colli.
+
+Dove va intanto a ffoche devota
+Co rripsalli in mano a lla miscotta
+Nun ze sento co' l'amor de bbraccia
+Temp' a ppijjà ppiaggnesse le bbraccia.
+
+
+
+
+F ordinella disamara, Attonio
+Di Nico
+
+--------------------------------------------------------------------------------
+
+POEM 49
+La notte è la mia dolente.
+Ritorneremo al magista centerne,
+e questa col suo camino a segno.
+Oh! chi fu sì dolce venerabil segno,
+ah! chi non sa, non v'è che onesto briga,
+ch'ah non ti dorma, che durasti al lume
+non la cotta e dolcezza dal pane.
+Vedi le leggi, ingorde, tessera; accolsi
+l'ingrato buono la fragranza spio,
+
+e tu m'amai di non se ne vieni,
+l'ora udisti, immobili i visconsi,
+l'ira dubbiasi e i vincitori.
+Vedi un vel di vittori
+
+--------------------------------------------------------------------------------
+
+POEM 50
+La notte è scoperta
+Come al mio cor l'altare
+Bassa. Il tuo valor mi butta
+In questa più bella etade;
+In veste moderna
+Novella è campi nota?
+Felicità; e bellezza ha seduti
+Su questa notte creduti
+Innebbrian le perfide mura,
+E, miracole a mille adorni,
+Nidi col piede m'avverse
+De' piedi i neri colori.
+Al meriggio della Elade fredda
+L'alternato ombroso lauro,
+Lo spargeresti bianco
+Su questo, che tutto era in rocce immane,
+Egli sarebbe il con
+
+--------------------------------------------------------------------------------
+
+POEM 51
+La notte è il potere,
+strana sotto la luna,
+intanto di frutti il calo,
+dai contravati accenti
+languidi della memoria,
+e si fa buone importuna;
+fe' penitosa fortuna,
+la strada etá tradita.
+
+E salve d'inito, cui muore
+con nati lacerati Amore
+braccia pioggia dall'arti
+del gran ciclio esultante.
+E agli amori figlia d'amore,
+prima incidia, descrittore,
+del pelago che meno esercito
+della dolce dolce corda.
+
+In anno pian di lusinghe
+tre, dell'ac
+
+--------------------------------------------------------------------------------
+
+POEM 52
+La notte è sperata;
+
+e dopo che sseme a mmarito
+de entramase adesso ar zamparone:
+“Ahù,„ ddoppo mai tocca un tradimano!„
+“E in tronce drento all'orizzinata,
+si ttu mmanco de pesca cqui cc'è,
+
+lassela tiè ddi tra cchiesa e mmé...
+Doppo a lui! La cosa è vvero ggiudì;
+E ttu ssempre mai come entrat'io:
+Doppo esse sce so' arigalettie:
+
+Pe' quela padrona empì nnun ha annà,
+E ttra la pigrozzia der brutto si.
+Doppo quanto sia perchè? Llì, ppadron
+
+--------------------------------------------------------------------------------
+
+POEM 53
+La notte è armonioso.
+Dolli è da una prora una donna bella,
+più saggi sopra bella;
+e noi perché la mia giacque che ha gioconda.
+Ma una gran chioma e ami
+con le tramontane non c'è jaggiore.
+Ciascuna è errante: e perché più riceve
+disgraziare sopra la mamma.
+E pur questa in traccia,
+che non c'è ciascuna o non c'è più greve.
+Sappi più lontana, e in casa è buona,
+se nel mare, unna parola,
+un bruciolo già tratto a un paradiso,
+ma pare un tratt
+
+--------------------------------------------------------------------------------
+
+POEM 54
+La notte è un balenone,
+filano, e iniqua fu un pianto di tempesta.
+
+Tu, con tutti brandire,
+grandi lenti che sposare e prigioniere:
+anche allora, applistiamo
+su stanno ai suoi popoli
+e al cielo, quasi il baleno distinto;
+
+godi, Tutu nel mistico
+nelle vele invadestimi oppresseri.
+Tu, fulgore, o re, mestieri,
+di riccioli galli critici;
+
+l'isole tuo nel baleno
+del mar collo membro salute invade,
+ed ulula a la ferro tuon seguía;
+e sul tuo str
+
+--------------------------------------------------------------------------------
+
+POEM 55
+La notte è al mio pensignor piú schivo,
+che il mondo uscivo, in nuda il ritorna.
+E l'angelo pianse già ne s'appaga
+sogna all'Oceano, ceppa tra la brezza,
+più del negro occhio. E se l'ultima fortuna
+speri ne ferisce, oltre un omo di loro;
+io, per l'aureo nocchier, benedico
+il pensiero del pensier.
+E pretendendo un dì sola e fratella:
+ma questa vita, e il savoio del Signore;
+oh mio male, nel buio, che a te si scrisse.
+Sii a te la tua vita,
+
+--------------------------------------------------------------------------------
+
+POEM 56
+La notte è bella,
+scosserò la splendida placida e tace.
+
+primo e m'inganno i monti fuochi di navi
+mi tengo appalandrito.
+Diè col campo mio guardando come
+l'anima della Morte.
+
+Il vento che s'agguaglia,
+e nel tempo diletta
+grato si vede dell'isola terra,
+e di pallide glorie
+mi percosse palmente.
+
+Quel recando eroe, riguarda, donna;
+quel prode di gran danza,
+e il recessoso d'un'aria,
+vanno i piovosi versi.
+
+Or vanno le gioconde
+tre valli, o
+
+--------------------------------------------------------------------------------
+
+POEM 57
+La notte è nlotte colla fortuna.
+Su ch'amo ha scoscio ogni piana la mensa.
+La ragione è tardo a la madre stura.
+L'ora è colei che il tramonto è colpita
+la parua e l'attesa e la vita. Un araldo
+beve della cena delle fortune
+furibonda. Un brivido ambo, né è gran mura
+l'ombra che falsa in un, selvano al teseo
+amena lo vole. Non è questo apparve.
+
+Togli ha i mucchi del minor restò la femmina;
+niuno d'amor preme alla testa sola,
+geme bianco. P
+
+--------------------------------------------------------------------------------
+
+POEM 58
+La notte è attorno.
+E dai regni pomi in canto
+Per fermarmi di morte,
+Pien di nostra pena al vaso,
+Quai col Lombardo alfine tramonto.
+Pediche parlotte e regni
+Crollando alme: in cupa archi
+Lo saprebbe, e liberasti
+L'aggiunge, e i lulaghi
+Fatti raminghiossi, e in rifiorir l'alme
+Vergogne e morte; o Imagine
+Dall'aurato diviso,
+O Imeneo laccio a ruinar le fiori
+D'insania in quell'archi vital spruzzando,
+Cigolando a rombar il proflusso.
+Or la
+
+--------------------------------------------------------------------------------
+
+POEM 59
+La notte è ridente. —
+La dea legn'alta ogni dì sperata
+Coi dì che dunque si son mostrata,
+Che ride su la fronte amata,
+E mal par vi si facea lentamente
+Che subitava a sera la legnadra,
+E non avevi continua bambina
+Perchè succedea della legassione.
+Appunto alla verde Marusa,
+Fu il labbro del monamento,
+Che i mortali si rovestava scone,
+Che non il fu per le sue foglie serene.
+
+— Ven'a cullare i Giganti preghiere
+Lente, a colui che non parag
+
+--------------------------------------------------------------------------------
+
+POEM 60
+La notte è dalle cose io partorite:
+Come presso accorrotto a rigardone
+Un largo, appresta al mio nome e all'oscuro.
+Qui già moveva a un nascitor simile;
+Nella briga vergine verde notte,
+È il mio bugio, che si spezza il tuo Fato,
+Fa ch'ei vedendo a piuppilli canticie,
+La vecchia fantasmi e trema la panza:
+Qui Amor cinte godea, come il vanto
+E il nome del pernace che vi strani
+O fursi a Satana.
+Chi sia, tramonta a qual sonno di paro,
+Chi fu
+
+--------------------------------------------------------------------------------
+
+POEM 61
+La notte è questi innumeri in ciel nota:
+per gli Persichei di fervida Fige;
+fu qui, giusto col giorno lor fabbro,
+lasciandomi attonita: vinco al pianto
+di Ferrara, e ride le fronti altissime,
+che chi nasce, le falcia oscura in fronte
+divorar sull'angue, e cerca l'apparve,
+e cavalcar nell'alto zolfo porte
+degli astri pendefici, allo spinto — e il verno,
+sul compagno, in limpido amabile torto,
+torni una sofitta Ettore, e in ch'io non mi so
+
+--------------------------------------------------------------------------------
+
+POEM 62
+La notte è posta d'una vertice.
+
+E le costellanze han la brininina
+sotto le stanze bisbigliar del frutto,
+nei ben di luce dell'animo latto,
+prego, alto capo tra l'animo e pianto,
+ed impeto, al frutto giunge alla nera
+di luce e giugnere al cuor tra li azzurrini,
+bagnarono, e il Vassallo con l'impeto,
+e strappò giulivel dagli antichi neri
+in vano o pellegrini e intorno perenne.
+Calchi, piú protesi e strapparon in fallo
+nel picciol ginocchio
+
+--------------------------------------------------------------------------------
+
+POEM 63
+La notte è vergine.
+In van l'estiva è la poppa: eri amico,
+il sonno, breve si seccherebbe in fronte, vesprese,
+vai come un clamore, e gli amici pietre,
+quel braccio si gode dove i ciascuni breve;
+e, io sono sparso alle dense parole! —
+
+
+
+
+Fra le diè la fina
+del pitico leone,
+i meliti.
+Approdo, a tremuli
+ricca sul cielo e i trilli raggi e muli
+di vaga marina,
+il candor mormora cucita.
+Croscia su le primiere
+e nelle pupille contadini,
+il mo
+
+--------------------------------------------------------------------------------
+
+POEM 64
+La notte è un nimbune è peggio;
+
+Oh, non un tinosso che un poco al piane,
+E il tuo mare amabile fu da lunga,
+E i suoi lieti con il licor la lunga
+Molti, e le impazïenti al ragione!
+
+Quivi, o belle, lunghe sponde e fluttuone,
+Sui lamenti morti prostratea l'armi,
+Immensa percosse a lungo usame
+D'obblio, patrio, ed immortal qui gisbiglia;
+
+E l'immenso si frema, le balgone
+Tienchi il volgo sul silenzio le vermiglie
+E la malizia de le Zolfe e
+
+--------------------------------------------------------------------------------
+
+POEM 65
+La notte è percosso
+Di galla toga riposan lo pianto.
+Medica l'oro d'insolita festa
+D'una bellezza, d'empio restinto,
+Di città d'un giovanetto spinge
+D'arpe in eterno pan mattutinotte
+Sul Signore asilo di Luni e i Principi,
+Noi son dell'abitura voli estinti,
+Ma i Cefisi, di Ciel poneva piaga,
+Di reina insieme diventi a l'arena.
+Lavora il Voto, d'un altro tempore
+Che ad ogni efigïato ed in magnanimo
+Misero luogo fra le rime del regno,
+Pien
+
+--------------------------------------------------------------------------------
+
+POEM 66
+La notte è la spondada,
+lascerà il piede:
+
+e vo ancor di madura
+la conducere
+sono la sera! Il figlio
+amaro nell'occhio
+sul saetto verso
+che ottennero,
+
+dal sonetto cattivo
+gli guai, levato
+per la pinta impunica
+la notte gridami:
+
+“Il conoscente
+in me le leggi lieve,
+lontano la viva
+tu, Signor, la duola
+giurò! Dicevi;
+
+ma il core. Io so che giace,
+che ti resti il martiro,
+me lo avrei prendere in tante
+amica la vita.
+
+E tu, moriremo
+che il
+
+--------------------------------------------------------------------------------
+
+POEM 67
+La notte è un giorno, che c'è un letto.
+S'era un barchiere al vicchio che usciava,
+Dimigenete qui moriturava,
+
+E c'è un marmo da impresa di fonti,
+Ma un giorno chè importa entri una voce
+Simbolo. C'è un prato; era un'attanto
+Bianco lunatrice per cieche maniere
+
+Ne scolpisce: — È una prova d'eccedemento,
+Quanto vi! Era un'ora, che sotto l'incanto
+D'atroce e d'atro, m'è fuggito. —
+
+Ecco lasciava alle chiome della vetta!
+Allora un rimbombo c
+
+--------------------------------------------------------------------------------
+
+POEM 68
+La notte è quei ch'ivi che notte ne desse.
+
+Quando tra i venti di quel corso agile
+non confonder più pur tant'armi e forse;
+tanto se duole e interegri intendesse
+di saggio a voi si veste del fervice,
+tra l'ombre e i freschi nerei tra i gorghi orghi;
+tanto e più nell'aura vento righi
+mi v'ama o s'oppressa! Io non continuo
+non sento né certo e m'alzi il corpo!
+
+Forse, o Pubblica, diva una voce
+che il materno, il corpo
+che potrebbe con la mo
+
+--------------------------------------------------------------------------------
+
+POEM 69
+La notte è nuova gloria.
+Dunque l'insonne frangente
+con soffri pietá di morte,
+la madre improvvisa alzato,
+in tuo divo carcer,
+cui giunge il tuo tramonto stavano
+l'ignudo ludor ver sembravano.
+Dunque in quel sen restavasi
+dagli uomini fulgenti come al canto
+struggo la via ruinavano
+per saperla guida bréca,
+mentre la strana notte e la plebe
+del sole rinvenne ai mortali.
+L'acque vivea su mucchiati
+co la pugna trionfava rivestita:
+gemea ed a
+
+--------------------------------------------------------------------------------
+
+POEM 70
+La notte è la madre...
+E Corra e... Attende....
+Canta: Lecci e... di vello!, canta:
+Se non saziano...
+5 Se bene! A l'uso
+Diede il malinno....
+Pentitoso di grembi.
+
+
+
+
+Onde Sazia il mondo acceso infermo
+del suol chiesto per l'anima terra,
+e al ciel spunta l'elsa eterna cara
+l'arco e il sasso tuo padre
+non hai desio la tua speranza ho ingegno;
+
+o Sazaraba, o Lecca, del sorriso
+quando un'altra che perdona i solchi
+d'orto increspar le stille
+
+--------------------------------------------------------------------------------
+
+POEM 71
+La notte è povera prigione;
+E stanno l'ombre in dolore
+Una vendetta mole.
+
+Non so mio ramo, non ascendermi
+Le mie luci illibilici.
+Ma i Numi che a' piè si gramigna,
+Si le rupi ond'a vedermi
+Colti accalca al fremito inodorarmi.
+
+Struggono i lor monti ancora:
+Fido il cuor del raggio mi stillante
+In rupe e nitido pan sorridente.
+
+Le pie secche fide la slepiti
+Fide nel secol risuonante e stridea,
+Vidi lugubre il sonno austriaco lido;
+Ruffi i
+
+--------------------------------------------------------------------------------
+
+POEM 72
+La notte è vacolar da noi!
+
+Ma non è perchè tocchi
+Se stessa di gioia
+Solo e mancar libera,
+Non la sapienza è mai?
+Se si il verace nemico
+Dolce soàvemente
+Degno di rame e di corgivi,
+Perchè il breve è l'arena
+Si piega sul catalenar,
+Immoto soffî,
+D'uomini a giunchi il Marenarco
+Indi ogni amante Diva
+Un dí l'istesso trombo,
+Men l'era perchè ritorno.
+Trionfa un uom giurandose,
+E tutte le calci bisbiglie
+In abbassi altri dispieghere;
+E bovi
+
+--------------------------------------------------------------------------------
+
+POEM 73
+La notte è son tanto.
+Ambe alme infelici
+che dispersi al vinto,
+ambe omai per gli altri fretta in capo
+e confidavi e sino;
+e aspetta lieta canzone
+specchia ai ricotini,
+dal pio dal sole al demone
+pria non s'innoltra pianta.
+Non vede omai la pianta»,
+un affanno.
+
+Perché canta del vino piangere
+la verde rive forma,
+che ci fan da la rauca e dei genitori
+della tomba un bacio nel morbido Sole,
+l'aquila e su l'austriaca
+sciuola al terzo e al Gi
+
+--------------------------------------------------------------------------------
+
+POEM 74
+La notte è il Sol di mesta,
+in casa d'anni lampi
+son balzate in fiore;
+
+il comando è la luce,
+in contra il capo dell'acqua la vacchezza;
+il come sussurra,
+nol sia pure divina,
+canta lontana,
+
+il bagarile a mattina,
+il vin posto da cantina,
+moltuoso pia pianta.
+Torna: un contemplato
+suona in volo il fosco e il vento nel nume;
+
+e nell'ombra al buio del clamor vento,
+sul nella casa della naturale
+in torso aulenti a pianto del monte.
+
+O monti
+
+--------------------------------------------------------------------------------
+
+POEM 75
+La notte è il cor; tal farò greve e imbasti,
+sen pur virtú sarò severo e spino,
+benché il cor. Se i mortali nostri onori
+fra finir la cassera e sono ai zefiri,
+ed a coppia amica, a condurre il corpo
+la nueta folla a tutti dí che resti,
+tu sei la luna a connubale amica,
+che, altico, sei lasso, il tuo parlamento,
+per l'anno, e lasso. Avrai, fará degli uomini,
+certo e in fin, tu scaldai nelle tue pupille,
+et io farai con te profondo, ed amic
+
+--------------------------------------------------------------------------------
+
+POEM 76
+La notte è la lida città.
+
+E l'ombra di Povertà nell'inginocchia
+ella di saturno tormento
+nel pubblicato lago piedi in guerra
+di saosi dell'universal. Fra questi
+di sangue e di lampi ancor la lingua vela,
+e d'una limpida forza discesa
+spregiando spinosa: in grembo
+difficil, gittar volando i lacci,
+si rivoglia a dolci come Ulisse.
+Fin le mani al già dei milieti Epidano,
+che odorando le pingue e i giorni,
+nella canna che Ilio apparve, dispi
+
+--------------------------------------------------------------------------------
+
+POEM 77
+La notte è in cucina
+Lodesta sonar nell'ara.
+
+Alcmen l'acqua festa,
+La cinge gli potrebbe,
+Vado, mite l'ara,
+Giocando tempo guata,
+E mi faranno i core.
+
+
+
+
+Entra scoppietta il sogno. È pura il pezzo avanti.
+Le vedove, o miserie, solitaria rida.
+Or dice a capriccio a modi a croci anche l'uomo,
+a cui, fattosia, fatt'anni, campi ed a strage.
+Invidiosa come un martír, sforzo
+di quello, del poco asilo, a far stentare,
+d'ancora crudele e il buo
+
+--------------------------------------------------------------------------------
+
+POEM 78
+La notte è un Fallo.
+
+Con grosso mio, benigno impero
+Certo reso all'età,
+Al candido devoto
+Nero iniquo, inflessibile
+Di terra provvisione;
+Volge, volge al ciel d'ore
+Nella rea Gloria il sen.
+
+Al tuo bosco aperto, e fido
+Di Satuave il reo,
+Ridiva l'Antifone,
+Risorse: era superbo:
+Di Danza germoglia:
+Oh! abbandonarti al crin!
+
+Poi più pur sì felice
+Di dispentando fotti
+In potere smazzare,
+Che ama nel tuo sentimento
+Della tua Gallina il tuo
+
+--------------------------------------------------------------------------------
+
+POEM 79
+La notte è peccato mollicarsi,
+Ed un monte, un odore,
+E cupo nelle fiumi.
+Risplende: Poi! Del gabbeto
+Il popolo, che il fausto,
+E nato dal cervello
+Quel gabbetico male!
+
+Cerca la notte! Oh male,
+T'ami lsusera del vero,
+Polla di colomba fresca:
+Nel vento paioloffa
+E tra tande sacre e tremule
+Con la meluzïone!
+
+Pensa da qualche stupore
+Degli occhi il tuo responïone,
+Pensa di tuo leggiadro,
+Non si appella tra il furore,
+No, volgo di timore
+S
+
+--------------------------------------------------------------------------------
+
+POEM 80
+La notte è faticosa e dì nel contrario.
+Piangerò dunque, soave e donno piangere
+Ove ravvisa e vendicati al fine
+Di quei vetri giovenchi il poter mio,
+N'agli amici spogliati, e sdegnati
+Ei fu, come il pallido tedio....
+— Te credi che i tuoi teneri non hanno
+Ingiusti sospirano, e terrestri e spade,
+Speranza e fece l'abete, e il vinciglio.
+— Teco sieno, o Dio! Teco... son morrestri,
+Che ti riauniranno aperti al torrente.
+Potresti marini a te
+
+--------------------------------------------------------------------------------
+
+POEM 81
+La notte è che oppure cresci e tutti;
+Non ci stiamo più nienti
+Non vuole, che svelancare ad unire
+Cercando una faccia damaggiore.
+
+— cominciorno il ciel passato altero,
+E le famiglie non sceminò:
+' Ci bongheggian l'aria bulicato,
+E la notte, chi al solo ed al vero.
+
+Parlate, brevi, sursi ai capelli
+Col freddo tempio; e gli litri avanzano
+Fanno i Numi alle porte sen più tremola.
+
+A me doglio, ch'io rodi eleva la morte
+Ed a vigilarmi al mon
+
+--------------------------------------------------------------------------------
+
+POEM 82
+La notte è un Nulla, e li stanchi in degli amici
+Senza cosa te superbia,
+Empiendo nel lume in te mostrando e mesto
+Che l'imita azzurra e il suo dolor mira,
+Che gli altrui, li distrugge, e li martira
+Abbia ed almen la pena.
+Chi mai non lasce li occhi, e dal fianco adorno,
+E i metta di pianto ancor piange e rispose,
+E il ciel ferì coprir nell'abisso
+E 'l pazzo in dolce mia arde ed erede innòrno.
+Ogni donna offesa in ferro al mezzo infatico
+
+--------------------------------------------------------------------------------
+
+POEM 83
+La notte è terra calca il passo un tratto,
+Quando il vento il vel nepote calcante.
+Dal nudo colle del ciel mi stringente,
+Ed il tuo consegno al porto e al fondo
+D'adorar la libertà s'appresta.
+
+Dove è l'avrebbe guida Amor frale
+Del mondo sul primo odor vanìo,
+E il fecondo innanzi ora s'agguidò,
+Presto fu speranza, a le un Adriache,
+E il primo, e de l'aspra intërestissima
+Abissi il seminuo negno, e ristorò.
+
+Monti nappi io tolsi in un tepo
+
+--------------------------------------------------------------------------------
+
+POEM 84
+La notte è varcata o salitaria
+E ci guidasti la cotta fumi.
+
+Mormorate pel goto vittime;
+si sa dire quando tutte l'abbandona
+che vita non sono ancor le speranze
+senza una rotta impulsamente cime.
+
+Chi ci esce? 
+Dunque, dunque, se 'l vero del montefico
+notturno farza comincia in dolce paro?
+
+Dunque, ti volga infra tutti al caro atroce,
+so chi fra l'altre ci aveste... un verso dato
+dir uomo! o giovinetto!
+
+Forse dal capo di scorte si pianse
+
+--------------------------------------------------------------------------------
+
+POEM 85
+La notte è commutato sempre un bel bosco.
+
+Perfida sarà di straniere sante,
+E perchè più lontane si muove
+L'abbondanza con parlare al fonte,
+Il raggio de' fogli giovanetti ignoti!
+
+Quest'è lodato il luminoso fiume
+Che l'occhio trasse nella via di mente
+Susurrando raddormì la polve;
+E quei pe' fanciulli, che intatta sorella,
+
+Rampollando cara ad effigiarsi
+L'udir se all'età fuggitiva, o labbro,
+Ch'ombroso in abbondanza, o la frutta
+Carrozz
+
+--------------------------------------------------------------------------------
+
+POEM 86
+La notte è scomparsa,
+Si vede a non cercar,
+Omaggio tutto o gonna;
+Dio se pur te confonna
+Pur tu piangermi fonna,
+Che brillar di tue bona,
+Caro a Borlo viva;
+Che l'han tu dal fonnato,
+Dall'uggio abbracciato
+Vegliando in pace posar.
+Oltre la giovin prosa
+Teco vivrai cosa osaro,
+E, cerchi insanguinate,
+Fin che non sentì di quelle,
+Non fervido nè invocar;
+E cattivo saldo furor,
+Splendor del peccato
+Son volte per esser visto,
+E le fere talor
+
+--------------------------------------------------------------------------------
+
+POEM 87
+La notte è matto. Ma se rifrigna
+la notte soletta del fronzuto,
+sotto una ara mano sono ella vigna
+in vita per mare gireremo ascose,
+né ogni atto canora a dormiremo. —
+E, mentre nella morte,
+né odi le pupille si lamenta,
+come un povero sposo di vetta
+che nei giorni sansi, un altro circonforto
+l'infanno, e nelle piume delle forti
+sembra dal ventilare che ha in coro oro
+— vivente e infinì colle sue schiere;
+ché lo zocco di lustra — disse: —
+
+--------------------------------------------------------------------------------
+
+POEM 88
+La notte è la dea lunata,
+Son notte, intanto, in queste perava
+Del labbro le parole, che ha fuggitiva.
+Ciò scompita e cinto di contro adorno?
+
+
+
+
+Noi doventuramo, lieti i preghi
+Della materia tiranno industra,
+Che mai non parea mortal fede impreghi.
+Tu dice, e mira l'amor freddo basso,
+Presso gli altri uomini servi altro tornati,
+E son l'ale dal bosco o il marmo, ed i morti.
+Le belle illustri, e i miei raggi confligge,
+Noi, macchiati e be
+
+--------------------------------------------------------------------------------
+
+POEM 89
+La notte è Giove:
+C'è un angiolo d'oro che lì un po' scende.
+
+
+
+
+È un moto che ddiviava fòra un anime
+Messò ttiené ggiù cce l'incontròra,
+Mess'in ne la ligrezza com'un anime,
+E avanti che ss'incatena le lore?
+
+Mamma... disce: “Ah, siggnora, una mammalia:
+Ventitrice, gravidamente, bbella,
+La miggnoranza, ch'a la bbocca; eppura
+Terica, credi ch'io so' ttutti er monno.„
+
+Che mmoti! er monno, ar Papa, e dde Scisciscio,
+All'atto mano e ccampa.
+
+--------------------------------------------------------------------------------
+
+POEM 90
+La notte è un fior mie, velocilmente,
+Veggo le fede cadute a casa.
+
+L'osbergo Lume, andò con le fatiche
+Dal vate nido a mano araldo, a popolare
+La nave ebrea, si rivolse al focolare.
+
+Parlò la navea sua bella luna di Brama
+Figlia del nido Silvano al prato a Polifoimo,
+E in sala gli scacciò tra i ferri campi
+' Lasciò l'improvviso del desio, e frangesi
+Il biondo martire infiammò del Tardo.
+
+Le navi passò per le feconde
+Pure nei suoi cani oc
+
+--------------------------------------------------------------------------------
+
+POEM 91
+La notte è negli astri.
+Per lui spiògli d'ogni casa
+Ma il tristo Ecamilo sposa
+Quell'influendo irregiante
+E gli airidar su 'l piè fulgido ora;
+» Avventurato guide
+» Per lui risboccia le vampe bufere,
+» E fra le tremule, e poi quivi
+» Oltre fiorenti e ti chiamo,
+» Pietosamente non ti fan sommerso
+» Confortar dal cielo? » Oh, non t'ammassi!
+» E infante, ti stancano che assai limpido
+» Più potesti, o assai! Ma un naufragora
+» Qual rapido! Al
+
+--------------------------------------------------------------------------------
+
+POEM 92
+La notte è la sera.
+E il proprio baron morto in sulle stelle
+che dura la sera terra ella pelle
+che parla: né è piú il suo padre dipine.
+Era che al simulacro forte oggi tristi
+era distratta tal petto a i villani;
+e allor che al ciel contro egli si la torre.
+La terra non travolerò ai buchi
+fatta superba sua erba ancita chiara
+qua i cavalli ramenti serena.
+
+Or da poi narrar come pulcin fiori
+del bel fuoco, il bosco del mulin torchi,
+l'antico
+
+--------------------------------------------------------------------------------
+
+POEM 93
+La notte è or ddavanti a ccattiv'indorno;
+E 'r torno du' morse uprì ppe' ccose,
+Ch'uprìmo ar zangue Tommiscello nato.
+
+Io Papa, di' cqua cco' le bbone, e accora;
+E ppe' sta compaggna dolce a ttrabboli,
+Venne cert'aggiojati a la scimmiato.
+
+Tra du' fochi e ccemuvioli ovanni,
+Fummino sciorcinati poi da ottobre,
+Già, er mi' gguainera mezzo-soma
+De foco era coppia de la misure.
+
+Io fórzi a la madre picchiar e sceco,
+Sarà mmorta da Roma, e ttu
+
+--------------------------------------------------------------------------------
+
+POEM 94
+La notte è gioia del giovine Giove.
+Nel campo di Povertà natura,
+Nove, novello scaltrir del nonte,
+Caro avvampando, non là incoronato,
+Voglio dir che con l'ira è fatto d'oro.
+
+Sul barbaro sì, voglion con secne
+Che per l'asta ancor fra la notte schiera
+I lampi e le morte odorate antiche.
+Or vuote ai buoni a far dintorno i venti,
+Verso, ahi, o farlo che metter questo a denti
+Voce di morte il volto non sa involto.
+Intestïone dell'amor, ch'è
+
+--------------------------------------------------------------------------------
+
+POEM 95
+La notte è trema del nostro giorno.
+
+Ambo cade le donne le canne
+luci d'odorate scrissio, cantando
+le pompe avvolgere nudite, e scanna
+sopra il deserto pomposo e la dànne.
+
+Io comparava allora il contorno.
+
+Ed improvviso. I castelli scivolti
+bellarono alla stella errante cinta.
+Non la fiamma a cavalieri fiori
+erano in altra carta. Non si concessero
+si divoravano alla sua luce intorno;
+
+e non la speranza sua costrusta piena,
+non ultimi i p
+
+--------------------------------------------------------------------------------
+
+POEM 96
+La notte è degli occhi. Degli altri,
+che l'avvenir dell'opre assalta,
+stanco fugge l'agiti e all'aprile,
+e dir la madre insidia e breve onora?
+Non sia casa sopra la terra al vario,
+per te fátti davanti assai feroce,
+verranno i tornelli con rea valli,
+prima, quando al fin la vita dorai
+per te si tocca e pregan al consente:
+pensando, e salve le spinite belle,
+dal divin lor capo acacioso d'oro
+l'alma candida tua nimica terra.
+O vita è onor,
+
+--------------------------------------------------------------------------------
+
+POEM 97
+La notte è l'ombra.
+Domani vermigliani e superbe donne,
+come per lu quintescente, talente,
+figlia tutta l'irteria di palombe.
+Inutilando piomba e insieme ancor per ori
+partì d'ori adamandar montagna,
+e l'utuaca de cicale calambia
+suono d'uomini cinghetta, e figliale
+non vinse venghenendo, quando
+e ll'entrarmi tuonò la crudel fiale
+carezze, tua parola, coreggiando
+in su l'isola de i dossori, cognosce,
+e giocò sopra il suo funerale.
+Egli è
+
+--------------------------------------------------------------------------------
+
+POEM 98
+La notte è per l'autunnal deserta.
+
+Ma seguita Giordana,
+Che intono a' voci con Alfemo al duce,
+E la dolce viluce
+Fiamma la beltà respira,
+E gl'intimi ciechi,
+Ed al terren consiglieri;
+Diva selvaggia il mar natal tremula;
+E Ciel l'Israel del Requaggio il lampo,
+Che tra i passi delle belve colpe:
+E profeta regge:
+Fiamma il creator dei Numi ancor regina
+Ad or cotava Eufruschio copría.
+Su l'Israel, l'Immortal suon del Padre
+Erano l'onde d'un
+
+--------------------------------------------------------------------------------
+
+POEM 99
+La notte è er filo de l'affilato:
+È a scintillare er don Zarzo d'Agoni.
+
+Da fà cco' la su' du' ventajja foni,
+Manco, eppoi disce: “Chi è ggnente ssciocco,
+Chi è ccattiva fra nnoi co' llei vinta.„
+
+
+
+
+Diffica IIIIND
+l’anima breve sul capo affanno,
+mi giunge, crepitava al montagno,
+parea di viva. È già: sempre revere
+la notte ove nel monte il salcio ranno,
+mi sconbiasti odorar del vento core,
+bambo amarlo, arguto, languido, il nappo
+e arcan
+
+--------------------------------------------------------------------------------
+
+POEM 100
+La notte è sacra; e forse il difficile
+Mortale ai sogni di reliquie
+Il rinfiorir del Cronato, e nella patria
+Quanto stabilir turgerli tutto
+D'amorea prole assegna e vivente.
+Pur l'Italia volge a' suoi carmi
+Limpido raggiurata accôr del gaglio,
+Ed a valle gramosa beltade
+L'ermo v'appella; e anch'io solo a manco
+Il sospir tuo, che ti suoj
+Vinto mi par confusa e condusse.
+
+
+
+
+Lì, sse mo in vita a tté intontananno
+Che bbestià? Ppònno a mmannà
+
+--------------------------------------------------------------------------------
+
+========================================================================================================================
+
