@@ -7,81 +7,81 @@ variable_name: top_p
 variable_value: 0.8
 
 GLOBAL_COUNTS
-num_poems: 3
-total_characters: 1326
-total_lines: 51
-non_empty_lines: 36
-blank_lines: 15
-total_words: 262
+num_poems: 100
+total_characters: 44177
+total_lines: 1693
+non_empty_lines: 1299
+blank_lines: 394
+total_words: 8473
 
 POEM_LENGTH_STATISTICS_CHARS
-mean: 442
-median: 442
-min: 442
+mean: 441.77
+median: 442.0
+min: 440
 max: 442
 p90: 442
 p95: 442
 
 POEM_LENGTH_STATISTICS_LINES
-mean: 17
-median: 16
-min: 15
-max: 20
-p90: 16
-p95: 16
+mean: 16.93
+median: 17.0
+min: 8
+max: 26
+p90: 22
+p95: 23
 
 LINE_STATISTICS
-mean_line_length: 35.5
-median_line_length: 37.0
+mean_line_length: 32.7821
+median_line_length: 35
 min_line_length: 1
-max_line_length: 46
+max_line_length: 68
 p90_line_length: 43
-p95_line_length: 44
-p99_line_length: 46
+p95_line_length: 45
+p99_line_length: 56
 
 WORD_STATISTICS
-mean_word_length: 4.0153
-median_word_length: 3.0
+mean_word_length: 4.1792
+median_word_length: 4
 min_word_length: 1
-max_word_length: 13
+max_word_length: 18
 p90_word_length: 7
 p95_word_length: 9
 p99_word_length: 11
 
 STRUCTURAL_RATIOS
-blank_line_ratio: 0.2941
-non_empty_line_ratio: 0.7059
+blank_line_ratio: 0.2327
+non_empty_line_ratio: 0.7673
 
 TOP_LINE_ENDINGS_LAST_3_CHARS
-'re,': 3
-'hia': 2
-'te.': 2
-'no,': 1
-'lo.': 1
-'seo': 1
-'eo,': 1
-'ne,': 1
-'ale': 1
-'are': 1
-'ri.': 1
-'usì': 1
-'n C': 1
-'na.': 1
-'ta,': 1
-'ldo': 1
-'lle': 1
-'ole': 1
-'re.': 1
-'rta': 1
+'re,': 28
+'te.': 27
+'to,': 27
+'ta,': 25
+'te,': 22
+'to.': 22
+'ta.': 21
+'nte': 21
+'nto': 20
+'ra,': 19
+'no,': 19
+'ra.': 19
+'ore': 17
+'no.': 17
+'ne,': 17
+'re.': 16
+'ato': 16
+'ti,': 15
+'ia,': 14
+'ro,': 13
 
 COMPARISON_WITH_CORPUS
 
 GENERATED_VS_CORPUS
-mean_line_length_difference: 2.92
-median_line_length_difference: 3.0
-mean_word_length_difference: -0.6447
-blank_line_ratio_difference: 0.099
-mean_lines_per_poem_vs_mean_lines_per_stanza_difference: 10.58
+mean_line_length_difference: 0.2021
+median_line_length_difference: 1
+mean_word_length_difference: -0.4808
+blank_line_ratio_difference: 0.0376
+mean_lines_per_poem_vs_mean_lines_per_stanza_difference: 10.51
 
 CORPUS_REFERENCE
 mean_line_length: 32.58
@@ -91,12 +91,12 @@ blank_line_ratio: 0.1951
 mean_lines_per_stanza: 6.42
 
 GENERATED_REFERENCE
-num_poems: 3
-mean_line_length: 35.5
-median_line_length: 37.0
-mean_word_length: 4.0153
-blank_line_ratio: 0.2941
-mean_lines_per_poem: 17
+num_poems: 100
+mean_line_length: 32.7821
+median_line_length: 35
+mean_word_length: 4.1792
+blank_line_ratio: 0.2327
+mean_lines_per_poem: 16.93
 
 ========================================================================================================================
 
@@ -105,81 +105,81 @@ variable_name: top_p
 variable_value: 0.9
 
 GLOBAL_COUNTS
-num_poems: 3
-total_characters: 1325
-total_lines: 48
-non_empty_lines: 38
-blank_lines: 10
-total_words: 248
+num_poems: 100
+total_characters: 44183
+total_lines: 1670
+non_empty_lines: 1342
+blank_lines: 328
+total_words: 8144
 
 POEM_LENGTH_STATISTICS_CHARS
-mean: 441.6667
-median: 442
-min: 441
+mean: 441.83
+median: 442.0
+min: 440
 max: 442
 p90: 442
 p95: 442
 
 POEM_LENGTH_STATISTICS_LINES
-mean: 16
-median: 17
-min: 12
-max: 19
-p90: 17
-p95: 17
+mean: 16.7
+median: 17.0
+min: 9
+max: 26
+p90: 22
+p95: 23
 
 LINE_STATISTICS
-mean_line_length: 33.6842
-median_line_length: 35.0
-min_line_length: 10
-max_line_length: 52
+mean_line_length: 31.7534
+median_line_length: 34.0
+min_line_length: 1
+max_line_length: 79
 p90_line_length: 42
-p95_line_length: 48
-p99_line_length: 48
+p95_line_length: 45
+p99_line_length: 54
 
 WORD_STATISTICS
-mean_word_length: 4.3145
+mean_word_length: 4.3972
 median_word_length: 4.0
 min_word_length: 1
-max_word_length: 11
+max_word_length: 16
 p90_word_length: 8
 p95_word_length: 9
-p99_word_length: 10
+p99_word_length: 11
 
 STRUCTURAL_RATIOS
-blank_line_ratio: 0.2083
-non_empty_line_ratio: 0.7917
+blank_line_ratio: 0.1964
+non_empty_line_ratio: 0.8036
 
 TOP_LINE_ENDINGS_LAST_3_CHARS
-'ta.': 3
-'ia,': 2
-'nte': 2
-'ro;': 1
-'ta,': 1
-'ia.': 1
-'me,': 1
-'ene': 1
-'ea.': 1
-'zio': 1
-'te.': 1
-'io,': 1
-'so,': 1
-'scr': 1
-'nta': 1
-'za,': 1
-'ata': 1
-'rta': 1
-'ore': 1
-'re.': 1
+'re,': 31
+'to,': 31
+'te,': 26
+'to.': 21
+'no,': 18
+'ta,': 18
+'ta.': 18
+'ore': 18
+'ra.': 17
+'te.': 17
+'ia.': 13
+'nte': 13
+'no.': 13
+'nti': 12
+'nto': 12
+'le.': 11
+'ne,': 10
+'lo.': 10
+'ti.': 10
+'se,': 10
 
 COMPARISON_WITH_CORPUS
 
 GENERATED_VS_CORPUS
-mean_line_length_difference: 1.1042
-median_line_length_difference: 1.0
-mean_word_length_difference: -0.3455
-blank_line_ratio_difference: 0.0132
-mean_lines_per_poem_vs_mean_lines_per_stanza_difference: 9.58
+mean_line_length_difference: -0.8266
+median_line_length_difference: 0.0
+mean_word_length_difference: -0.2628
+blank_line_ratio_difference: 0.0013
+mean_lines_per_poem_vs_mean_lines_per_stanza_difference: 10.28
 
 CORPUS_REFERENCE
 mean_line_length: 32.58
@@ -189,12 +189,12 @@ blank_line_ratio: 0.1951
 mean_lines_per_stanza: 6.42
 
 GENERATED_REFERENCE
-num_poems: 3
-mean_line_length: 33.6842
-median_line_length: 35.0
-mean_word_length: 4.3145
-blank_line_ratio: 0.2083
-mean_lines_per_poem: 16
+num_poems: 100
+mean_line_length: 31.7534
+median_line_length: 34.0
+mean_word_length: 4.3972
+blank_line_ratio: 0.1964
+mean_lines_per_poem: 16.7
 
 ========================================================================================================================
 
@@ -203,81 +203,81 @@ variable_name: top_p
 variable_value: 0.95
 
 GLOBAL_COUNTS
-num_poems: 3
-total_characters: 1326
-total_lines: 57
-non_empty_lines: 42
-blank_lines: 15
-total_words: 240
+num_poems: 100
+total_characters: 44176
+total_lines: 1651
+non_empty_lines: 1320
+blank_lines: 331
+total_words: 8092
 
 POEM_LENGTH_STATISTICS_CHARS
-mean: 442
-median: 442
-min: 442
+mean: 441.76
+median: 442.0
+min: 439
 max: 442
 p90: 442
 p95: 442
 
 POEM_LENGTH_STATISTICS_LINES
-mean: 19
-median: 20
-min: 15
-max: 22
-p90: 20
-p95: 20
+mean: 16.51
+median: 17.0
+min: 10
+max: 26
+p90: 21
+p95: 22
 
 LINE_STATISTICS
-mean_line_length: 30.2857
-median_line_length: 31.0
-min_line_length: 2
-max_line_length: 45
-p90_line_length: 40
-p95_line_length: 42
-p99_line_length: 44
+mean_line_length: 32.2917
+median_line_length: 35.0
+min_line_length: 1
+max_line_length: 62
+p90_line_length: 42
+p95_line_length: 44
+p99_line_length: 49
 
 WORD_STATISTICS
-mean_word_length: 4.475
+mean_word_length: 4.4307
 median_word_length: 4.0
 min_word_length: 1
-max_word_length: 13
+max_word_length: 24
 p90_word_length: 8
 p95_word_length: 9
-p99_word_length: 10
+p99_word_length: 11
 
 STRUCTURAL_RATIOS
-blank_line_ratio: 0.2632
-non_empty_line_ratio: 0.7368
+blank_line_ratio: 0.2005
+non_empty_line_ratio: 0.7995
 
 TOP_LINE_ENDINGS_LAST_3_CHARS
-'ro;': 1
-'te.': 1
-'io,': 1
-'la,': 1
-'ere': 1
-'ca,': 1
-'io.': 1
-'ma,': 1
-'de,': 1
-'se,': 1
-'iti': 1
-'za,': 1
-'le,': 1
-'ari': 1
-'mi.': 1
-'anc': 1
-'ra.': 1
-'co,': 1
-'ri.': 1
-'mi,': 1
+'to,': 33
+'te,': 23
+'to.': 23
+'no.': 21
+'ta,': 18
+'nte': 18
+'re.': 17
+'ti,': 15
+'no,': 14
+'ta.': 13
+'are': 13
+'ra.': 13
+'ro,': 13
+'nto': 12
+'ne,': 11
+'ro.': 11
+'te.': 10
+'na.': 10
+'io,': 10
+'re,': 10
 
 COMPARISON_WITH_CORPUS
 
 GENERATED_VS_CORPUS
-mean_line_length_difference: -2.2943
-median_line_length_difference: -3.0
-mean_word_length_difference: -0.185
-blank_line_ratio_difference: 0.0681
-mean_lines_per_poem_vs_mean_lines_per_stanza_difference: 12.58
+mean_line_length_difference: -0.2883
+median_line_length_difference: 1.0
+mean_word_length_difference: -0.2293
+blank_line_ratio_difference: 0.0054
+mean_lines_per_poem_vs_mean_lines_per_stanza_difference: 10.09
 
 CORPUS_REFERENCE
 mean_line_length: 32.58
@@ -287,12 +287,12 @@ blank_line_ratio: 0.1951
 mean_lines_per_stanza: 6.42
 
 GENERATED_REFERENCE
-num_poems: 3
-mean_line_length: 30.2857
-median_line_length: 31.0
-mean_word_length: 4.475
-blank_line_ratio: 0.2632
-mean_lines_per_poem: 19
+num_poems: 100
+mean_line_length: 32.2917
+median_line_length: 35.0
+mean_word_length: 4.4307
+blank_line_ratio: 0.2005
+mean_lines_per_poem: 16.51
 
 ========================================================================================================================
 

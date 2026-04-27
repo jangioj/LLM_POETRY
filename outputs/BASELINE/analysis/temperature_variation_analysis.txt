@@ -7,81 +7,81 @@ variable_name: temperature
 variable_value: 0.8
 
 GLOBAL_COUNTS
-num_poems: 3
-total_characters: 1326
-total_lines: 53
-non_empty_lines: 44
-blank_lines: 9
-total_words: 240
+num_poems: 100
+total_characters: 44175
+total_lines: 1800
+non_empty_lines: 1318
+blank_lines: 482
+total_words: 8280
 
 POEM_LENGTH_STATISTICS_CHARS
-mean: 442
-median: 442
-min: 442
+mean: 441.75
+median: 442.0
+min: 438
 max: 442
 p90: 442
 p95: 442
 
 POEM_LENGTH_STATISTICS_LINES
-mean: 17.6667
-median: 17
-min: 13
-max: 23
-p90: 17
-p95: 17
+mean: 18
+median: 18.0
+min: 9
+max: 27
+p90: 23
+p95: 23
 
 LINE_STATISTICS
-mean_line_length: 29
-median_line_length: 26.5
-min_line_length: 17
-max_line_length: 42
-p90_line_length: 40
-p95_line_length: 41
-p99_line_length: 42
+mean_line_length: 32.2269
+median_line_length: 35.0
+min_line_length: 1
+max_line_length: 67
+p90_line_length: 42
+p95_line_length: 44
+p99_line_length: 50
 
 WORD_STATISTICS
-mean_word_length: 4.5
+mean_word_length: 4.289
 median_word_length: 4.0
 min_word_length: 1
-max_word_length: 11
+max_word_length: 17
 p90_word_length: 8
 p95_word_length: 9
-p99_word_length: 10
+p99_word_length: 11
 
 STRUCTURAL_RATIOS
-blank_line_ratio: 0.1698
-non_empty_line_ratio: 0.8302
+blank_line_ratio: 0.2678
+non_empty_line_ratio: 0.7322
 
 TOP_LINE_ENDINGS_LAST_3_CHARS
-'ra.': 3
-'mio': 2
-'el.': 2
-'ore': 2
-'ro;': 1
-'bo,': 1
-'no;': 1
-'re,': 1
-'to,': 1
-'osi': 1
-'ano': 1
-'sa,': 1
-'spr': 1
-'ddo': 1
-'nde': 1
-'hi,': 1
-'ime': 1
-'mi,': 1
-'rte': 1
-'lla': 1
+'to.': 28
+'re,': 26
+'re.': 21
+'ta,': 21
+'to,': 20
+'ta.': 20
+'te,': 19
+'no,': 18
+'te.': 17
+'nto': 17
+'ti,': 15
+'ra.': 15
+'no.': 14
+'ro.': 14
+'nte': 14
+'le,': 14
+'io,': 12
+'ra,': 11
+'era': 11
+'na.': 11
 
 COMPARISON_WITH_CORPUS
 
 GENERATED_VS_CORPUS
-mean_line_length_difference: -3.58
-median_line_length_difference: -7.5
-mean_word_length_difference: -0.16
-blank_line_ratio_difference: -0.0253
-mean_lines_per_poem_vs_mean_lines_per_stanza_difference: 11.2467
+mean_line_length_difference: -0.3531
+median_line_length_difference: 1.0
+mean_word_length_difference: -0.371
+blank_line_ratio_difference: 0.0727
+mean_lines_per_poem_vs_mean_lines_per_stanza_difference: 11.58
 
 CORPUS_REFERENCE
 mean_line_length: 32.58
@@ -91,12 +91,12 @@ blank_line_ratio: 0.1951
 mean_lines_per_stanza: 6.42
 
 GENERATED_REFERENCE
-num_poems: 3
-mean_line_length: 29
-median_line_length: 26.5
-mean_word_length: 4.5
-blank_line_ratio: 0.1698
-mean_lines_per_poem: 17.6667
+num_poems: 100
+mean_line_length: 32.2269
+median_line_length: 35.0
+mean_word_length: 4.289
+blank_line_ratio: 0.2678
+mean_lines_per_poem: 18
 
 ========================================================================================================================
 
@@ -105,81 +105,81 @@ variable_name: temperature
 variable_value: 1.0
 
 GLOBAL_COUNTS
-num_poems: 3
-total_characters: 1326
-total_lines: 42
-non_empty_lines: 35
-blank_lines: 7
-total_words: 226
+num_poems: 100
+total_characters: 44183
+total_lines: 1674
+non_empty_lines: 1345
+blank_lines: 329
+total_words: 7927
 
 POEM_LENGTH_STATISTICS_CHARS
-mean: 442
-median: 442
-min: 442
+mean: 441.83
+median: 442.0
+min: 440
 max: 442
 p90: 442
 p95: 442
 
 POEM_LENGTH_STATISTICS_LINES
-mean: 14
-median: 14
-min: 13
-max: 15
-p90: 14
-p95: 14
+mean: 16.74
+median: 17.0
+min: 10
+max: 26
+p90: 22
+p95: 23
 
 LINE_STATISTICS
-mean_line_length: 36.7714
-median_line_length: 40
-min_line_length: 7
-max_line_length: 59
-p90_line_length: 47
-p95_line_length: 51
-p99_line_length: 54
+mean_line_length: 31.6796
+median_line_length: 34
+min_line_length: 1
+max_line_length: 68
+p90_line_length: 42
+p95_line_length: 45
+p99_line_length: 51
 
 WORD_STATISTICS
-mean_word_length: 4.8496
-median_word_length: 5.0
+mean_word_length: 4.5446
+median_word_length: 4
 min_word_length: 1
-max_word_length: 16
-p90_word_length: 9
-p95_word_length: 10
-p99_word_length: 12
+max_word_length: 18
+p90_word_length: 8
+p95_word_length: 9
+p99_word_length: 11
 
 STRUCTURAL_RATIOS
-blank_line_ratio: 0.1667
-non_empty_line_ratio: 0.8333
+blank_line_ratio: 0.1965
+non_empty_line_ratio: 0.8035
 
 TOP_LINE_ENDINGS_LAST_3_CHARS
-'. —': 5
-'ndo': 3
-'ata': 2
-'ro;': 1
-'ti?': 1
-'lo,': 1
-'lo:': 1
-'! —': 1
-'tto': 1
-'ra.': 1
-'co,': 1
-'io.': 1
-'ie.': 1
-'ora': 1
-'uta': 1
-'ini': 1
-'oli': 1
-' vi': 1
-'vo.': 1
-'lo.': 1
+'to,': 24
+'no,': 22
+'re.': 20
+'te,': 19
+'ta,': 16
+'ta.': 15
+'ne.': 15
+'te.': 13
+'io,': 13
+'ti,': 13
+'ra,': 12
+'ta;': 12
+'le,': 12
+'tto': 11
+'to.': 11
+'nte': 11
+'no.': 11
+'ro.': 10
+'re,': 9
+'ore': 9
 
 COMPARISON_WITH_CORPUS
 
 GENERATED_VS_CORPUS
-mean_line_length_difference: 4.1914
-median_line_length_difference: 6
-mean_word_length_difference: 0.1896
-blank_line_ratio_difference: -0.0284
-mean_lines_per_poem_vs_mean_lines_per_stanza_difference: 7.58
+mean_line_length_difference: -0.9004
+median_line_length_difference: 0
+mean_word_length_difference: -0.1154
+blank_line_ratio_difference: 0.0014
+mean_lines_per_poem_vs_mean_lines_per_stanza_difference: 10.32
 
 CORPUS_REFERENCE
 mean_line_length: 32.58
@@ -189,12 +189,12 @@ blank_line_ratio: 0.1951
 mean_lines_per_stanza: 6.42
 
 GENERATED_REFERENCE
-num_poems: 3
-mean_line_length: 36.7714
-median_line_length: 40
-mean_word_length: 4.8496
-blank_line_ratio: 0.1667
-mean_lines_per_poem: 14
+num_poems: 100
+mean_line_length: 31.6796
+median_line_length: 34
+mean_word_length: 4.5446
+blank_line_ratio: 0.1965
+mean_lines_per_poem: 16.74
 
 ========================================================================================================================
 
@@ -203,81 +203,81 @@ variable_name: temperature
 variable_value: 1.2
 
 GLOBAL_COUNTS
-num_poems: 3
-total_characters: 1326
-total_lines: 46
-non_empty_lines: 40
-blank_lines: 6
-total_words: 216
+num_poems: 100
+total_characters: 44179
+total_lines: 1668
+non_empty_lines: 1398
+blank_lines: 270
+total_words: 7448
 
 POEM_LENGTH_STATISTICS_CHARS
-mean: 442
-median: 442
-min: 442
+mean: 441.79
+median: 442.0
+min: 438
 max: 442
 p90: 442
 p95: 442
 
 POEM_LENGTH_STATISTICS_LINES
-mean: 15.3333
-median: 15
-min: 13
-max: 18
-p90: 15
-p95: 15
+mean: 16.68
+median: 16.0
+min: 11
+max: 29
+p90: 22
+p95: 24
 
 LINE_STATISTICS
-mean_line_length: 32.075
-median_line_length: 35.0
-min_line_length: 5
-max_line_length: 48
-p90_line_length: 42
-p95_line_length: 43
-p99_line_length: 48
+mean_line_length: 30.48
+median_line_length: 32.0
+min_line_length: 1
+max_line_length: 63
+p90_line_length: 43
+p95_line_length: 46
+p99_line_length: 55
 
 WORD_STATISTICS
-mean_word_length: 5.125
+mean_word_length: 4.9086
 median_word_length: 5.0
 min_word_length: 1
-max_word_length: 15
+max_word_length: 22
 p90_word_length: 9
 p95_word_length: 10
-p99_word_length: 14
+p99_word_length: 12
 
 STRUCTURAL_RATIOS
-blank_line_ratio: 0.1304
-non_empty_line_ratio: 0.8696
+blank_line_ratio: 0.1619
+non_empty_line_ratio: 0.8381
 
 TOP_LINE_ENDINGS_LAST_3_CHARS
-'to,': 3
-'nte': 2
-'o?„': 2
-'pa.': 1
-'ite': 1
-'he,': 1
-'ona': 1
-'ur;': 1
-'ro:': 1
-'ro.': 1
-'ri?': 1
-'le,': 1
-'vi,': 1
-'lci': 1
-' gr': 1
-'ra.': 1
-'ono': 1
-'za:': 1
-'nsa': 1
-'ro,': 1
+'...': 25
+'to,': 25
+'te,': 23
+'to.': 17
+'no,': 17
+'ra,': 15
+'re,': 15
+'ta,': 14
+'ne,': 13
+'ta.': 13
+'le,': 13
+'no.': 12
+'io,': 12
+'no:': 10
+'to;': 10
+'ne.': 10
+'ni,': 9
+'ndo': 9
+'de,': 9
+'ore': 9
 
 COMPARISON_WITH_CORPUS
 
 GENERATED_VS_CORPUS
-mean_line_length_difference: -0.505
-median_line_length_difference: 1.0
-mean_word_length_difference: 0.465
-blank_line_ratio_difference: -0.0647
-mean_lines_per_poem_vs_mean_lines_per_stanza_difference: 8.9133
+mean_line_length_difference: -2.1
+median_line_length_difference: -2.0
+mean_word_length_difference: 0.2486
+blank_line_ratio_difference: -0.0332
+mean_lines_per_poem_vs_mean_lines_per_stanza_difference: 10.26
 
 CORPUS_REFERENCE
 mean_line_length: 32.58
@@ -287,12 +287,12 @@ blank_line_ratio: 0.1951
 mean_lines_per_stanza: 6.42
 
 GENERATED_REFERENCE
-num_poems: 3
-mean_line_length: 32.075
-median_line_length: 35.0
-mean_word_length: 5.125
-blank_line_ratio: 0.1304
-mean_lines_per_poem: 15.3333
+num_poems: 100
+mean_line_length: 30.48
+median_line_length: 32.0
+mean_word_length: 4.9086
+blank_line_ratio: 0.1619
+mean_lines_per_poem: 16.68
 
 ========================================================================================================================
 
