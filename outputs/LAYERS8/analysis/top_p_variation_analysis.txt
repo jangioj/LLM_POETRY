@@ -1,0 +1,102 @@
+GENERATED_ANALYSIS
+
+source_file: top_p_variation_generated.txt
+
+SECTION: TOP_P_VARIATION
+variable_name: top_p
+variable_value: 1.0
+
+GLOBAL_COUNTS
+num_poems: 100
+total_characters: 44183
+total_lines: 1736
+non_empty_lines: 1409
+blank_lines: 327
+total_words: 8020
+
+POEM_LENGTH_STATISTICS_CHARS
+mean: 441.83
+median: 442.0
+min: 440
+max: 442
+p90: 442
+p95: 442
+
+POEM_LENGTH_STATISTICS_LINES
+mean: 17.36
+median: 17.0
+min: 10
+max: 26
+p90: 22
+p95: 23
+
+LINE_STATISTICS
+mean_line_length: 30.1966
+median_line_length: 32
+min_line_length: 1
+max_line_length: 65
+p90_line_length: 41
+p95_line_length: 43
+p99_line_length: 50
+
+WORD_STATISTICS
+mean_word_length: 4.4807
+median_word_length: 4.0
+min_word_length: 1
+max_word_length: 16
+p90_word_length: 8
+p95_word_length: 9
+p99_word_length: 11
+
+STRUCTURAL_RATIOS
+blank_line_ratio: 0.1884
+non_empty_line_ratio: 0.8116
+
+TOP_LINE_ENDINGS_LAST_3_CHARS
+'to,': 22
+'te,': 19
+'no,': 17
+'nte': 17
+'to.': 17
+'no.': 15
+'io,': 14
+'re.': 12
+'ne.': 11
+'me,': 11
+'ta,': 11
+'ni,': 10
+'te.': 10
+'ata': 10
+'ino': 10
+'nto': 10
+'re,': 9
+'ro,': 9
+'na,': 9
+'na.': 9
+
+COMPARISON_WITH_CORPUS
+
+GENERATED_VS_CORPUS
+mean_line_length_difference: -2.3834
+median_line_length_difference: -2
+mean_word_length_difference: -0.1793
+blank_line_ratio_difference: -0.0067
+mean_lines_per_poem_vs_mean_lines_per_stanza_difference: 10.94
+
+CORPUS_REFERENCE
+mean_line_length: 32.58
+median_line_length: 34
+mean_word_length: 4.66
+blank_line_ratio: 0.1951
+mean_lines_per_stanza: 6.42
+
+GENERATED_REFERENCE
+num_poems: 100
+mean_line_length: 30.1966
+median_line_length: 32
+mean_word_length: 4.4807
+blank_line_ratio: 0.1884
+mean_lines_per_poem: 17.36
+
+========================================================================================================================
+
