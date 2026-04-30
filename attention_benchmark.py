@@ -6,7 +6,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from data import get_batch, train_data, val_data, CONTEXT_LENGTH
+from data import get_batch, CONTEXT_LENGTH
 from model import vocab_size, N_EMBD, N_HEAD, N_LAYER, DROPOUT
 
 
