@@ -1,0 +1,25 @@
+ATTENTION IMPLEMENTATION BENCHMARK
+device: cuda
+gpu: Tesla T4
+context_length: 256
+n_layer: 6
+n_embd: 256
+n_head: 8
+dropout: 0.1
+warmup_steps: 20
+benchmark_steps: 100
+
+implementation: sdpa
+mean_step_time_sec: 0.097523
+tokens_per_step: 8192
+mean_loss: 2.604094
+peak_memory_mb: 938.74
+
+implementation: manual
+mean_step_time_sec: 0.134695
+tokens_per_step: 8192
+mean_loss: 2.604193
+peak_memory_mb: 1801.61
+
+speedup_manual_over_sdpa: 1.381x
+memory_ratio_manual_over_sdpa: 1.919x
