@@ -1,12 +1,12 @@
 {
-    "run_name": "run_20260424_232320",
+    "run_name": "CL512",
     "device": "cuda",
     "train_length": 8727706,
     "val_length": 448766,
     "test_length": 526818,
     "vocab_size": 231,
     "context_length": 512,
-    "batch_size": 16,
+    "batch_size": 32,
     "n_embd": 256,
     "n_head": 8,
     "n_layer": 6,
@@ -20,5 +20,5 @@
     "checkpoint_every": 2000,
     "save_best_model": true,
     "prompt": "La notte ",
-    "resume_from": "outputs/run_20260424_232320/checkpoints/checkpoint_step_26000.pt"
+    "resume_from": "outputs/CL512/checkpoints/checkpoint_step_26000.pt"
 }

@@ -1210,118 +1210,10 @@ Eccole
 
 checkpoint saved to: outputs/run_20260424_232320/checkpoints/checkpoint_step_26000.pt
 
-==== STEP 26200 ====
-train loss: 1.3033
-val loss: 1.3369
-train bpc: 1.8803
-val bpc: 1.9288
 
-==== STEP 26400 ====
-train loss: 1.3076
-val loss: 1.3423
-train bpc: 1.8864
-val bpc: 1.9366
+==== CLEAN RESUME FROM STEP 26000 WITH CL512 BATCH32 ====
 
-==== STEP 26600 ====
-train loss: 1.2969
-val loss: 1.3359
-train bpc: 1.8710
-val bpc: 1.9272
-
-==== STEP 26800 ====
-train loss: 1.3011
-val loss: 1.3431
-train bpc: 1.8771
-val bpc: 1.9376
-
-==== STEP 27000 ====
-train loss: 1.2945
-val loss: 1.3344
-train bpc: 1.8676
-val bpc: 1.9251
-best val loss so far: 1.3344
-best model checkpoint saved to: outputs/run_20260424_232320/best_model.pt
-
-==== STEP 27200 ====
-train loss: 1.3023
-val loss: 1.3363
-train bpc: 1.8789
-val bpc: 1.9279
-
-==== STEP 27400 ====
-train loss: 1.3050
-val loss: 1.3435
-train bpc: 1.8827
-val bpc: 1.9383
-
-==== STEP 27600 ====
-train loss: 1.2961
-val loss: 1.3369
-train bpc: 1.8699
-val bpc: 1.9288
-
-==== STEP 27800 ====
-train loss: 1.2978
-val loss: 1.3365
-train bpc: 1.8724
-val bpc: 1.9281
-
-==== STEP 28000 ====
-train loss: 1.2970
-val loss: 1.3403
-train bpc: 1.8711
-val bpc: 1.9336
-
-SAMPLE:
-La notte dir umil gorgo
-In lume di quando avò lasso al cielo:
-Quel che il silenzio di rompa al cielo,
-Sì del cielo; e vivo alla cittade
-Il nero onorato più defunto
-Saetterai già però denïarsi.
-Tor che il fior contra altrui vivace in cielo
-Al mio pensier non altri del mio gran male,
-E sì del suo segno che più del cor tuo fato
-A poss'io tenga strazio il tempo innamorasi.
-E per esso, chè 'l matutino m'afferro
-
-checkpoint saved to: outputs/run_20260424_232320/checkpoints/checkpoint_step_28000.pt
-
-==== STEP 28200 ====
-train loss: 1.2866
-val loss: 1.3420
-train bpc: 1.8562
-val bpc: 1.9361
-
-==== STEP 28400 ====
-train loss: 1.2923
-val loss: 1.3316
-train bpc: 1.8643
-val bpc: 1.9210
-best val loss so far: 1.3316
-best model checkpoint saved to: outputs/run_20260424_232320/best_model.pt
-
-==== STEP 28600 ====
-train loss: 1.2927
-val loss: 1.3339
-train bpc: 1.8649
-val bpc: 1.9244
-
-==== STEP 28800 ====
-train loss: 1.2965
-val loss: 1.3281
-train bpc: 1.8704
-val bpc: 1.9160
-best val loss so far: 1.3281
-best model checkpoint saved to: outputs/run_20260424_232320/best_model.pt
-
-==== STEP 29000 ====
-train loss: 1.2959
-val loss: 1.3394
-train bpc: 1.8696
-val bpc: 1.9324
-
-RUN: run_20260424_232320
+RUN: CL512
 DEVICE: cuda
 
 GENERAL INFOS
@@ -1329,7 +1221,7 @@ train length: 8727706
 val length: 448766
 test length: 526818
 vocab size: 231
-context length: 256
+context length: 512
 batch size: 32
 n_embd: 256
 n_head: 8
@@ -1343,170 +1235,156 @@ sample every: 2000
 sample tokens: 400
 checkpoint every: 2000
 prompt: 'La notte '
-resume from: outputs/run_20260424_232320/checkpoints/checkpoint_step_26000.pt
-
-RUN: run_20260424_232320
-DEVICE: cuda
-
-GENERAL INFOS
-train length: 8727706
-val length: 448766
-test length: 526818
-vocab size: 231
-context length: 512
-batch size: 16
-n_embd: 256
-n_head: 8
-n_layer: 6
-dropout: 0.1
-learning rate: 0.0003
-num steps: 30000
-eval interval: 200
-eval iters: 20
-sample every: 2000
-sample tokens: 400
-checkpoint every: 2000
-prompt: 'La notte '
-resume from: outputs/run_20260424_232320/checkpoints/checkpoint_step_26000.pt
+resume from: outputs/CL512/checkpoints/checkpoint_step_26000.pt
 
 
 ==== RESUME ====
-resumed from: outputs/run_20260424_232320/checkpoints/checkpoint_step_26000.pt
+resumed from: outputs/CL512/checkpoints/checkpoint_step_26000.pt
 starting from step: 26001
 best val loss so far: 1.3349
 
 ==== STEP 26200 ====
-train loss: 1.3327
-val loss: 1.3517
-train bpc: 1.9227
-val bpc: 1.9501
+train loss: 1.3096
+val loss: 1.3435
+train bpc: 1.8893
+val bpc: 1.9383
 
 ==== STEP 26400 ====
-train loss: 1.3207
-val loss: 1.3659
-train bpc: 1.9053
-val bpc: 1.9706
+train loss: 1.3086
+val loss: 1.3482
+train bpc: 1.8879
+val bpc: 1.9451
 
 ==== STEP 26600 ====
-train loss: 1.3299
-val loss: 1.3461
-train bpc: 1.9186
-val bpc: 1.9421
+train loss: 1.3090
+val loss: 1.3410
+train bpc: 1.8885
+val bpc: 1.9347
 
 ==== STEP 26800 ====
-train loss: 1.3236
-val loss: 1.3478
-train bpc: 1.9095
-val bpc: 1.9445
+train loss: 1.3047
+val loss: 1.3403
+train bpc: 1.8823
+val bpc: 1.9336
 
 ==== STEP 27000 ====
-train loss: 1.3275
-val loss: 1.3551
-train bpc: 1.9152
-val bpc: 1.9550
+train loss: 1.2967
+val loss: 1.3443
+train bpc: 1.8707
+val bpc: 1.9393
 
 ==== STEP 27200 ====
-train loss: 1.3123
-val loss: 1.3553
-train bpc: 1.8933
-val bpc: 1.9553
+train loss: 1.3020
+val loss: 1.3425
+train bpc: 1.8784
+val bpc: 1.9368
 
 ==== STEP 27400 ====
-train loss: 1.3181
-val loss: 1.3534
-train bpc: 1.9016
-val bpc: 1.9525
+train loss: 1.2981
+val loss: 1.3447
+train bpc: 1.8728
+val bpc: 1.9400
 
 ==== STEP 27600 ====
-train loss: 1.3173
-val loss: 1.3472
-train bpc: 1.9004
-val bpc: 1.9437
+train loss: 1.3005
+val loss: 1.3453
+train bpc: 1.8763
+val bpc: 1.9409
 
 ==== STEP 27800 ====
-train loss: 1.3144
-val loss: 1.3534
-train bpc: 1.8962
-val bpc: 1.9526
+train loss: 1.3008
+val loss: 1.3399
+train bpc: 1.8767
+val bpc: 1.9330
 
 ==== STEP 28000 ====
-train loss: 1.3137
-val loss: 1.3596
-train bpc: 1.8952
-val bpc: 1.9615
+train loss: 1.2913
+val loss: 1.3334
+train bpc: 1.8630
+val bpc: 1.9237
+best val loss so far: 1.3334
+best model checkpoint saved to: outputs/CL512/best_model.pt
 
 SAMPLE:
-La notte teppe una stupida stalla.
-Le fonti, dalle smoglie salite pioggia,
-deludite un vino di fibra tempio,
-dal fido sulla notte antica
-ad ogni padre (o dei disideri gioghi);
-ov'un monti seduto alto di lor alazi ―
-d'inarraginar di libraia allor scendono,
-di quel tuo segno presto alla feconda.
-Ed io son le sue minor azzurro in bocca
-stringere: io son regno: io terresti varcai,
-l'ignoto popolo tremare i col
+La notte addolorata per li uomini
+La stagion sfidata in l'anno, e all'albito
+Risò la sua spada, in riva fulgenti
+Su l'aquila del malfredo
+Vittree scampò dai defunti affanni.
 
-checkpoint saved to: outputs/run_20260424_232320/checkpoints/checkpoint_step_28000.pt
+E fiorente immunitata attende
+E muti assassini e di Chialafune,
+La femminolina tende,
+Alto un conchiusio di raggianti vite.
+
+Con alti abiulei muri da capella
+Miti liberi gemme, arte ogni turba,
+Ogni punto mutiva fra giovanci giorni
+Op
+
+checkpoint saved to: outputs/CL512/checkpoints/checkpoint_step_28000.pt
 
 ==== STEP 28200 ====
-train loss: 1.3170
-val loss: 1.3458
-train bpc: 1.9001
-val bpc: 1.9416
+train loss: 1.2958
+val loss: 1.3403
+train bpc: 1.8695
+val bpc: 1.9336
 
 ==== STEP 28400 ====
-train loss: 1.3140
-val loss: 1.3463
-train bpc: 1.8957
-val bpc: 1.9422
+train loss: 1.2982
+val loss: 1.3332
+train bpc: 1.8728
+val bpc: 1.9234
+best val loss so far: 1.3332
+best model checkpoint saved to: outputs/CL512/best_model.pt
 
 ==== STEP 28600 ====
-train loss: 1.3155
-val loss: 1.3535
-train bpc: 1.8978
-val bpc: 1.9527
+train loss: 1.2886
+val loss: 1.3397
+train bpc: 1.8591
+val bpc: 1.9328
 
 ==== STEP 28800 ====
-train loss: 1.3136
-val loss: 1.3492
-train bpc: 1.8951
-val bpc: 1.9465
+train loss: 1.2910
+val loss: 1.3374
+train bpc: 1.8626
+val bpc: 1.9294
 
 ==== STEP 29000 ====
-train loss: 1.3127
-val loss: 1.3530
-train bpc: 1.8938
-val bpc: 1.9520
+train loss: 1.2885
+val loss: 1.3362
+train bpc: 1.8589
+val bpc: 1.9277
 
 ==== STEP 29200 ====
-train loss: 1.3176
-val loss: 1.3546
-train bpc: 1.9010
-val bpc: 1.9543
+train loss: 1.2938
+val loss: 1.3396
+train bpc: 1.8666
+val bpc: 1.9326
 
 ==== STEP 29400 ====
-train loss: 1.3154
-val loss: 1.3466
-train bpc: 1.8977
-val bpc: 1.9427
+train loss: 1.2936
+val loss: 1.3298
+train bpc: 1.8663
+val bpc: 1.9185
+best val loss so far: 1.3298
+best model checkpoint saved to: outputs/CL512/best_model.pt
 
 ==== STEP 29600 ====
-train loss: 1.3099
-val loss: 1.3472
-train bpc: 1.8897
-val bpc: 1.9436
+train loss: 1.2876
+val loss: 1.3394
+train bpc: 1.8576
+val bpc: 1.9323
 
 ==== STEP 29800 ====
-train loss: 1.2994
-val loss: 1.3560
-train bpc: 1.8746
-val bpc: 1.9562
+train loss: 1.2934
+val loss: 1.3390
+train bpc: 1.8659
+val bpc: 1.9317
 
 ==== FINAL ====
-training time seconds: 540.98
-training time minutes: 9.02
-final model saved to: outputs/run_20260424_232320/final_model.pt
-best model saved to: outputs/run_20260424_232320/best_model.pt
-best val loss: 1.3349
+training time seconds: 1102.48
+training time minutes: 18.37
+final model saved to: outputs/CL512/final_model.pt
+best model saved to: outputs/CL512/best_model.pt
+best val loss: 1.3298
